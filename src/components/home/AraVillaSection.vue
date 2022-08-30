@@ -6,7 +6,7 @@
     <div class="w-full relative lg:mt-10">
         <g-image class="h-full w-full object-cover" src="/img/AraHero.png" alt="ku-villa-bg"/>
         <div class="absolute inset-0 flex flex-col items-center justify-center">
-            <g-image width="380" src="/img/ara-logo-rv.png" alt="ara-hero"/>
+            <img width="380" src="/img/ara-logo-rv.png" alt="ara-hero"/>
             <h1 class="text-white/60 font-semibold lg:mt-6 text-xl lg:text-[40px] lg:leading-[54px] text-center">Coming Soon</h1>
         </div>
     </div>
