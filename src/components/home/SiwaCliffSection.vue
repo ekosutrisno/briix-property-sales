@@ -1,7 +1,6 @@
 <template>
-    <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
-        <div
-            class="  -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
+    <section class="border-t-2 border-t-briix-primary/20 mt-20 lg:mt-72 pb-20">
+        <div class="-mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
             Siwa Cliff</div>
 
         <!-- Images Hero With Carrousel -->
@@ -10,7 +9,7 @@
         </div>
 
         <!-- Masterplan Button -->
-        <div class="my-24 mx-auto text-center">
+        <div class="my-24 mx-auto text-center hidden">
             <div class="lg:space-x-8 space-y-8 lg:space-y-0">
                 <button type="button"
                     @click="setImage('MasterplanLight.png')"
@@ -24,8 +23,8 @@
         </div>
 
         <!-- Masterplan -->
-        <div class="relative">
-            <div :class="[dark ? 'text-white mt-20' : '']" class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg  ">
+        <div class="relative mt-20 lg:mt-56">
+            <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg  ">
                 <div class="inline-flex items-center space-x-5">
                     <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master
@@ -56,7 +55,7 @@
         <div class="  briix-container mt-20 lg:mt-[170px]">
             <div>
                 <div class="inline-flex items-center space-x-5">
-                    <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
+                    <div class="h-0.5 bg-briix-primary w-[100px]"></div>
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-semibold leading-[56px] text-left">The
                         Facilities.</h1>
                 </div>
@@ -73,26 +72,31 @@
         </div>
 
         <!-- Available Villas on the Market -->
-        <div class="lg:mt-[170px] px-5 lg:briix-container">
-            <h1 class="text-center font-medium text-2xl mt-10 lg:mt-0 lg:text-[40px] leading-[56px] tracking-[0.03em]">
-                Available Villas on the Market</h1>
+        <div class="lg:mt-[170px] mt-20 px-5 lg:briix-container">
+           
+            <div class="inline-flex items-center space-x-5">
+                <div class="h-0.5 bg-briix-primary w-[100px]"></div>
+                <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas</h1>
+            </div>
 
             <!-- Card Available -->
             <div
-                class="w-full   overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
+                class="w-full overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
                     <g-image class="h-full w-full object-cover rounded-[15px]" src="/img/villa-k.png"
                         alt="available-img" />
                 </div>
                 <div class="lg:p-8 p-4 py-8">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                        <p class="lg:text-4xl text-2xl leading-[50px] font-bold">Villa K</p>
-                        <p class="lg:text-2xl leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
+                        <p class="lg:text-4xl text-2xl leading-[50px] font-semibold">Villa K</p>
+                        <p class="lg:text-2xl leading-[33px] font-medium text-briix-primary">IDR 13,000,000,000</p>
                     </div>
 
-                    <div class="mt-4 lg:text-xl leading-relaxed lg:leading-[34px] tracking-[0.02em] text-briix-body">
-                        VILLA K is a stunning three bedroom villa situated on the second row of villas on SIWA Cliffs
-                        first phase of developments.
+                    <div class="inline-flex items-start lg:space-x-2 mt-4">
+                        <svg width="25" height="25" class="hidden lg:block" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41093 6.40787C8.6344 5.1844 10.2938 4.49707 12.024 4.49707C13.7542 4.49707 15.4136 5.1844 16.6371 6.40787C17.8605 7.63133 18.5479 9.2907 18.5479 11.0209C18.5479 12.7512 17.8605 14.4105 16.6371 15.634L12.024 20.2471L7.41093 15.634C6.8051 15.0282 6.32452 14.309 5.99664 13.5175C5.66876 12.726 5.5 11.8777 5.5 11.0209C5.5 10.1642 5.66876 9.31585 5.99664 8.52433C6.32452 7.73282 6.8051 7.01364 7.41093 6.40787ZM12.024 12.8848C12.5183 12.8848 12.9924 12.6884 13.342 12.3389C13.6915 11.9893 13.8879 11.5153 13.8879 11.0209C13.8879 10.5266 13.6915 10.0525 13.342 9.70298C12.9924 9.35344 12.5183 9.15707 12.024 9.15707C11.5297 9.15707 11.0556 9.35344 10.706 9.70298C10.3565 10.0525 10.1601 10.5266 10.1601 11.0209C10.1601 11.5153 10.3565 11.9893 10.706 12.3389C11.0556 12.6884 11.5297 12.8848 12.024 12.8848Z" fill="#0C3F54"/>
+                        </svg>
+                        <p class="font-normal text-briix-body"> Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara </p>
                     </div>
 
                     <!-- Facility -->
@@ -104,8 +108,7 @@
                         <CardFacility v-for="fac in villaKs" :key="fac.id" :facility="fac" />
                     </div>
 
-                    <div
-                        class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between lg:space-x-20 w-full">
+                    <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between lg:space-x-20 w-full">
                         <button type="button"
                             class="rounded-full w-full border-2 hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-10 inline-flex items-center justify-center space-x-4">
                             <p>Live Chat</p>

@@ -10,6 +10,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        'hd': '1920px',
+      },
       colors: {
         "briix-primary": "#1F9ED3",
         "briix-black": "#000000",

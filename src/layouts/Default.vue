@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mx-auto">
+  <div class="max-w-hd mx-auto">
     <slot/>
     <Footer/>
   </div>

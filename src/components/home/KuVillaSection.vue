@@ -25,7 +25,7 @@
     <div class="  briix-container mt-20 lg:mt-[170px]">
         <div>
             <div class="inline-flex items-center space-x-5">
-                <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
+                <div class="h-0.5 bg-briix-primary w-[100px]"></div>
                 <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-semibold leading-[56px] text-left">The Facilities.</h1>
             </div>
             <p class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body text-left">The resort offers a club house, fitness center, spa and an area for business travelers to work and host meetings.</p>
@@ -40,7 +40,10 @@
 
     <!-- Available Villas on the Market -->
     <div class="lg:mt-[170px] briix-container">
-        <h1 class="text-center font-medium text-2xl mt-10 lg:mt-0 lg:text-[40px] leading-[56px] tracking-[0.03em]">Available Villas on the Market</h1>
+        <div class="inline-flex items-center space-x-5">
+            <div class="h-0.5 bg-briix-primary w-[100px]"></div>
+            <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas</h1>
+        </div>
     </div>
 
 

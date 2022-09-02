@@ -5,7 +5,7 @@
                 <!-- Image and Overlay -->
                 <g-image class="h-full w-full object-cover absolute inset-0" src="/img/villa-k.png" alt="hero-img" />
                 <div
-                    class="absolute mx-auto max-w-screen-2xl inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
+                    class="absolute mx-auto w-full inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
                     <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">
                         <header class="pt-8">
                             <LogoBriix />
@@ -17,24 +17,6 @@
                                 <h1 class="font-semibold text-3xl lg:text-[64px] leading-[96px] tracking-wide">VILLA K
                                 </h1>
                             </div>
-                            <div class="hidden lg:grid-cols-2 mt-[30vh] lg:mt-[300px]">
-                                <div class="text-white">
-                                    <h1
-                                        class="  mt-20 lg:mt-0 text-3xl lg:text-[40px] font-normal leading-[40px] lg:leading-[60px] tracking-[0.02em]">
-                                        Unique Cliff <span class="text-briix-primary">Top Investment</span> Opportunity
-                                        with Ocean View</h1>
-                                    <button type="button"
-                                        class="rounded-full mt-[30px] py-2 px-4 lg:px-10 border-2 text-[20px] hover:bg-briix-blue-1 hover:text-briix-primary transition-colors">Discover
-                                        More</button>
-                                </div>
-                                <div class="hidden lg:flex flex-col items-center justify-start lg:mt-10">
-                                    <svg width="110" height="110" class="hover:scale-110 transition-transform"
-                                        viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <circle cx="55" cy="55" r="55" fill="white" fill-opacity="0.6" />
-                                        <path d="M38.4004 28.6V81.4L82.4004 55L38.4004 28.6Z" fill="white" />
-                                    </svg>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -44,8 +26,8 @@
             <section class="briix-container lg:mt-[78px]">
                 <div class="py-8  ">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                        <p class="lg:text-5xl text-2xl leading-[50px] font-bold">Villa K</p>
-                        <p class="lg:text-[32px] leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
+                        <p class="lg:text-5xl text-2xl leading-[50px] font-semibold">Villa K</p>
+                        <p class="lg:text-[32px] leading-[33px] font-medium text-briix-primary">IDR 13,000,000,000</p>
                     </div>
 
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between w-full">
@@ -176,32 +158,19 @@
 
             <WhyUseBriix />
 
-            <!-- The Masterplan Button -->
-            <div class="my-24 lg:my-[290px] mx-auto text-center">
-                <div class="lg:space-x-8 space-y-8 lg:space-y-0">
-                    <button type="button"
-                        class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-briix-blue-1 text-briix-primary">The
-                        Masterplan</button>
-                    <button type="button"
-                        class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-[#F9F9F9] text-[#A6A6A6]">Masterplan
-                        Isolated Night</button>
-                </div>
-            </div>
-
             <!-- The Masterplan -->
-            <section class="relative">
-                <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg  ">
+            <section class="relative mt-24 lg:mt-[290px]">
+                <div class="lg:absolute px-5 text-right lg:right-[100px] -top-32 lg:max-w-lg lg:bg-white/20 lg:border lg:border-briix-body/[0.15] rounded-lg lg:backdrop-blur-sm lg:p-6">
                     <div class="inline-flex items-center space-x-5">
                         <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                        <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The
-                            Master Plan</h1>
+                        <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Site Plan</h1>
                     </div>
                     <p
-                        class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body text-right">
+                        class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100 text-right">
                         The SIWA Cliffs property marks a new dawn in luxury property development and management in South
                         Lombok with it's unique approach to sustainability through design, service and living.</p>
                 </div>
-                <g-image src="/img/MasterplanLight.png" alt="master-plan-light" />
+                <g-image src="/plan/villa_a.png" alt="master-plan-villa-a" />
             </section>
 
 
@@ -211,7 +180,7 @@
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
                     <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Fully managed
-                        wellness resort.</h2>
+                        wellness resort</h2>
 
                     <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px]">
                         Villa K is situated on the first row of villas on SIWA Cliffs first phase of developments. The
@@ -237,7 +206,7 @@
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
                     <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Providing world
-                        class services.</h2>
+                        class services</h2>
 
                     <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px]">
                         Villa K is situated on the first row of villas on SIWA Cliffs first phase of developments. The

@@ -6,12 +6,12 @@
 
         <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">
             <header class="pt-8">
-                <LogoBriix/>
+                <LogoBriix />
             </header>
             <div class="flex-1">
                 <div class="grid lg:grid-cols-2 mt-[30vh] lg:mt-[300px]">
                     <div class="text-white">
-                        <h1 class="  mt-20 lg:mt-0 text-3xl lg:text-[40px] font-normal leading-[40px] lg:leading-[60px] tracking-[0.02em]">Unique Cliff <span class="text-briix-primary">Top Investment</span> Opportunity with Ocean View</h1>
+                        <h1 class="  mt-20 lg:mt-0 text-3xl lg:text-[40px] font-medium leading-[40px] lg:leading-[60px] tracking-[0.02em]">Unique Investment Opportunity in Lombok Island</h1>
                         <button type="button" class="rounded-full mt-[30px] py-2 px-4 lg:px-10 border-2 text-[20px] hover:bg-briix-blue-1 hover:text-briix-primary transition-colors">Discover More</button>
                     </div>
                     <div class="hidden animate-pulse lg:flex flex-col items-center justify-start lg:mt-10">
