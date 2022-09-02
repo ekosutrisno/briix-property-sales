@@ -1,6 +1,6 @@
 <template>
     <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
-    <div class="font-manrope -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
+    <div class="  -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full relative lg:mt-10">

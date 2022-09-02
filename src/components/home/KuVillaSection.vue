@@ -1,6 +1,6 @@
 <template>
     <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
-    <div class="font-manrope -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
+    <div class="  -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full lg:mt-10">
@@ -12,7 +12,7 @@
         <div>
             <g-image src="/img/KuMasterplan.png" alt="master-plan-light"/>
         </div>
-        <div class="font-manrope flex flex-col justify-center">
+        <div class="  flex flex-col justify-center">
             <div class="inline-flex items-center space-x-5 lg:pl-10">
                 <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                 <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master Plan</h1>
@@ -22,7 +22,7 @@
     </div>
 
     <!-- Facilities -->
-    <div class="font-manrope briix-container mt-20 lg:mt-[170px]">
+    <div class="  briix-container mt-20 lg:mt-[170px]">
         <div>
             <div class="inline-flex items-center space-x-5">
                 <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>

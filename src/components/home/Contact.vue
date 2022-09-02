@@ -1,7 +1,7 @@
 <template>
     <section class="relative overflow-hidden lg:min-h-[769px] py-10 lg:py-[85px] lg:mt-20 briix-container bg-[#EAF6FB]">
         <SeluetBlue class="absolute inset-0"/>
-        <div class="grid lg:grid-cols-2 font-manrope relative">
+        <div class="grid lg:grid-cols-2   relative">
             <div class="lg:border-r lg:border-r-[#C7E7F4] lg:pr-20">
                 <div class="lg:text-5xl text-3xl mb-10 font-semibold">Contact Us</div>
                 <div>

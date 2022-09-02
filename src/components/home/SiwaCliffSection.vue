@@ -1,7 +1,7 @@
 <template>
     <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
         <div
-            class="font-manrope -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
+            class="  -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
             Siwa Cliff</div>
 
         <!-- Images Hero With Carrousel -->
@@ -25,7 +25,7 @@
 
         <!-- Masterplan -->
         <div class="relative">
-            <div :class="[dark ? 'text-white mt-20' : '']" class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg font-manrope">
+            <div :class="[dark ? 'text-white mt-20' : '']" class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg  ">
                 <div class="inline-flex items-center space-x-5">
                     <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master
@@ -53,7 +53,7 @@
         </div>
 
         <!-- Facilities -->
-        <div class="font-manrope briix-container mt-20 lg:mt-[170px]">
+        <div class="  briix-container mt-20 lg:mt-[170px]">
             <div>
                 <div class="inline-flex items-center space-x-5">
                     <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
@@ -79,7 +79,7 @@
 
             <!-- Card Available -->
             <div
-                class="w-full font-manrope overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
+                class="w-full   overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
                     <g-image class="h-full w-full object-cover rounded-[15px]" src="/img/villa-k.png"
                         alt="available-img" />
@@ -97,7 +97,7 @@
 
                     <!-- Facility -->
                     <div class="mt-4 grid lg:gap-3 lg:grid-cols-2">
-                        <div class="flex flex-row items-center space-x-5 font-manrope mb-3 lg:mb-0 ml-2">
+                        <div class="flex flex-row items-center space-x-5   mb-3 lg:mb-0 ml-2">
                             <g-image :src="`/icons/${v.icon}`" :alt="v.icon" />
                             <p class="text-briix-grey-7 ml-2 lg:ml-0 lg:font-semibold">{{  v.title  }}</p>
                         </div>

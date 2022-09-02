@@ -1,6 +1,6 @@
 <template>
     <section class="briix-container bg-white py-10 lg:py-[178px]">
-        <div class="grid lg:grid-cols-3 pb-20 lg:pb-0 lg:py-20 font-manrope">
+        <div class="grid lg:grid-cols-3 pb-20 lg:pb-0 lg:py-20  ">
             <div class="lg:col-span-2 lg:mt-10">
                 <div class="flex flex-col items-start lg:flex-row lg:items-center lg:space-x-5">
                     <div class="lg:mr-11">
@@ -43,7 +43,7 @@
                         <p class="font-semibold mt-3 text-2xl leading-[33px] text-briix-primary">Building your wealth, <br> Briick by Briick</p>
                         
                         <div class="col-span-2 mx-auto lg:col-span-4 pb-[30px] mt-16">
-                            <h1 class="font-manrope font-semibold text-left text-xl leading-6 mb-[10px]">Download Our App</h1>
+                            <h1 class="  font-semibold text-left text-xl leading-6 mb-[10px]">Download Our App</h1>
                             <div class="inline-flex items-center space-x-3">
                                 <g-link class="transition-colors hover:text-briix-white/60 font-normal leading-6" to="/#">
                                     <g-image src="/icons/AppStore.svg" alt="sosmed-apple"/>

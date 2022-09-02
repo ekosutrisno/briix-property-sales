@@ -18,15 +18,15 @@
             </div>
 
             <div class="flex flex-col lg:flex-row lg:items-center justify-between mt-4">
-                    <div class="flex ml-1 font-manrope items-center space-x-3">
+                    <div class="flex ml-1   items-center space-x-3">
                         <g-image :src="`/icons/villa-sm.svg`" alt="vill-1" class="mb-2 lg:mb-1"/>
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.area}} m2</p>
                     </div>
-                    <div class="flex font-manrope items-center space-x-3">
+                    <div class="flex   items-center space-x-3">
                         <g-image width="42" height="42"  :src="`/icons/bed.svg`" alt="bed-1"/>
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.bed}} Bedrooms</p>
                     </div>
-                    <div class="flex font-manrope items-center space-x-3">
+                    <div class="flex   items-center space-x-3">
                         <g-image width="42" height="42"  :src="`/icons/bed.svg`" alt="bed-1"/>
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.bath}} Bathrooms</p>
                     </div>

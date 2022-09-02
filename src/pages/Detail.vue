@@ -20,7 +20,7 @@
                             <div class="hidden lg:grid-cols-2 mt-[30vh] lg:mt-[300px]">
                                 <div class="text-white">
                                     <h1
-                                        class="font-manrope mt-20 lg:mt-0 text-3xl lg:text-[40px] font-normal leading-[40px] lg:leading-[60px] tracking-[0.02em]">
+                                        class="  mt-20 lg:mt-0 text-3xl lg:text-[40px] font-normal leading-[40px] lg:leading-[60px] tracking-[0.02em]">
                                         Unique Cliff <span class="text-briix-primary">Top Investment</span> Opportunity
                                         with Ocean View</h1>
                                     <button type="button"
@@ -42,7 +42,7 @@
 
             <!-- Actions CTA-->
             <section class="briix-container lg:mt-[78px]">
-                <div class="py-8 font-manrope">
+                <div class="py-8  ">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
                         <p class="lg:text-5xl text-2xl leading-[50px] font-bold">Villa K</p>
                         <p class="lg:text-[32px] leading-[33px] font-semibold text-briix-primary">IDR 13,000,000,000</p>
@@ -137,12 +137,12 @@
 
                     <!-- Facility -->
                     <div class="mt-8 grid lg:flex lg:items-center lg:justify-between">
-                        <div class="flex flex-row items-center space-x-5 font-manrope mb-1 ml-2 lg:ml-0">
+                        <div class="flex flex-row items-center space-x-5   mb-1 ml-2 lg:ml-0">
                             <g-image :src="`/icons/${v.icon}`" :alt="v.icon" />
                             <p class="text-briix-grey-7 lg:font-semibold">{{  v.title  }}</p>
                         </div>
                         <div v-for="fac in villaKs" :key="fac.id"
-                            class="flex flex-row items-center space-x-4 font-manrope">
+                            class="flex flex-row items-center space-x-4  ">
                             <g-image :src="`/icons/${fac.icon}`" :alt="fac.icon" />
                             <p class="text-briix-grey-7 lg:font-semibold lg:mb-1">{{  fac.title  }}</p>
                         </div>
@@ -190,7 +190,7 @@
 
             <!-- The Masterplan -->
             <section class="relative">
-                <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg font-manrope">
+                <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg  ">
                     <div class="inline-flex items-center space-x-5">
                         <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                         <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The
@@ -207,7 +207,7 @@
 
             <!-- Half 1 -->
             <section class="grid lg:grid-cols-2 p-5 lg:p-0 lg:mt-[215px]">
-                <div class="lg:px-[100px] mt-5 lg:mt-0 font-manrope order-last lg:order-first">
+                <div class="lg:px-[100px] mt-5 lg:mt-0   order-last lg:order-first">
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
                     <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Fully managed
@@ -233,7 +233,7 @@
                     <g-image class="h-full w-full object-cover" src="/img/villa-k-bedroom-1.png"
                         alt="villa-k-bedroom" />
                 </div>
-                <div class="lg:px-[100px] mt-5 lg:mt-0 font-manrope lg:text-right">
+                <div class="lg:px-[100px] mt-5 lg:mt-0   lg:text-right">
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
                     <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Providing world
@@ -251,7 +251,7 @@
             </section>
 
             <!-- Floor Plan 1 -->
-            <section class="briix-container font-manrope lg:mt-[190px]">
+            <section class="briix-container   lg:mt-[190px]">
                 <div class="inline-flex items-center space-x-5">
                     <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Floor Plan.
@@ -282,7 +282,7 @@
             </section>
 
             <!-- Floor Plan 2 -->
-            <section class="briix-container font-manrope mt-20 lg:mt-[190px]">
+            <section class="briix-container   mt-20 lg:mt-[190px]">
                 <div class="mt-10 lg:mt-[100px]">
                     <g-image class="h-full w-full object-cover" src="/UF.svg" alt="g-floor" />
                 </div>

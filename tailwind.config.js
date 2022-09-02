@@ -25,7 +25,7 @@ module.exports = {
         "briix-black-100": "#333333",
       },
       fontFamily: {
-        manrope: ["Lato", "sans-serif"],
+        manrope: ["Open Sans", "sans-serif"],
       },
     },
   },
