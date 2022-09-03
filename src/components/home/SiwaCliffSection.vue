@@ -24,18 +24,8 @@
         </div>
 
 
-        <!-- Carrousel Fake Image -->
-        <div class="lg:grid hidden lg:grid-cols-12 lg:mt-[275px]">
-            <div class="col-span-3 cursor-pointer">
-                <g-image class="h-full w-full object-cover" src="/img/Left.png" alt="left" />
-            </div>
-            <div class="col-span-6 cursor-pointer border-r-2 border-l-2">
-                <g-image class="h-full w-full object-cover" src="/img/Center.png" alt="center" />
-            </div>
-            <div class="col-span-3 cursor-pointer">
-                <g-image class="h-full w-full object-cover" src="/img/Right.png" alt="right" />
-            </div>
-        </div>
+        <!-- Carrousel Section-->
+        <SiwaCliffCarrousel/>
 
         <!-- Facilities -->
         <div class="  briix-container mt-20 lg:mt-[170px]">
@@ -134,6 +124,7 @@
 <script>
 import CardFacility from '../cards/CardFacility.vue';
 import CardProperty from '../cards/CardProperty.vue';
+import SiwaCliffCarrousel from './SiwaCliffCarrousel.vue';
 export default {
     data: () => ({
         facilities: [
@@ -296,7 +287,7 @@ export default {
         masterPlanImg: 'MasterplanLight.png',
         dark: false
     }),
-    components: { CardFacility, CardProperty },
+    components: { CardFacility, CardProperty, SiwaCliffCarrousel },
     methods:{
         setImage(img){
             if(img == 'MasterplanDark.jpg')
