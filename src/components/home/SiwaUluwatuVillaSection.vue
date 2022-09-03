@@ -4,7 +4,7 @@
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full relative lg:mt-10">
-        <g-image class="h-full w-full object-cover" src="/img/SiwaUlu.png" alt="ku-villa-bg"/>
+        <g-image class="h-full w-full object-cover" src="/imgs/hero_siwa_uluwatu.jpg" alt="hero-siwa-uluwatu"/>
         <div class="absolute inset-0 flex flex-col items-center justify-center">
             <img width="380" src="/img/siwa-logo-rv.png" alt="ara-hero"/>
             <img width="141" src="/img/ulu-rv.png" alt="sub-img-ulu" class="mt-2"/>

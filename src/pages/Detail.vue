@@ -3,7 +3,7 @@
         <section class="wrapper-section-detail">
             <section class="min-h-screen lg:min-h-[918px] h-full relative w-full">
                 <!-- Image and Overlay -->
-                <g-image class="h-full w-full object-cover absolute inset-0" src="/img/villa-k.png" alt="hero-img" />
+                <g-image class="h-full w-full object-cover absolute inset-0" src="/imgs/hero_villa_k_master.jpg" alt="hero-villa-k-master" />
                 <div
                     class="absolute mx-auto w-full inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
                     <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">
@@ -159,8 +159,8 @@
             <WhyUseBriix />
 
             <!-- The Masterplan -->
-            <section class="relative mt-24 lg:mt-[290px]">
-                <div class="lg:absolute px-5 text-right lg:right-[100px] -top-32 lg:max-w-lg lg:bg-white/20 lg:border lg:border-briix-body/[0.15] rounded-lg lg:backdrop-blur-sm lg:p-6">
+            <section class="relative my-24 lg:mt-[250px]">
+                <div class="float-right px-5 lg:px-0 text-right lg:max-w-lg w-full lg:mr-[100px]">
                     <div class="inline-flex items-center space-x-5">
                         <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
                         <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Site Plan</h1>
@@ -170,7 +170,7 @@
                         The SIWA Cliffs property marks a new dawn in luxury property development and management in South
                         Lombok with it's unique approach to sustainability through design, service and living.</p>
                 </div>
-                <g-image src="/plan/villa_a.png" alt="master-plan-villa-a" />
+                <g-image src="/plan/villa_b.png" alt="master-plan-villa" />
             </section>
 
 
@@ -192,14 +192,14 @@
                     </div>
                 </div>
                 <div class="rounded-lg lg:rounded-r-none lg:rounded-l-lg overflow-hidden">
-                    <g-image class="h-full w-full object-cover" src="/img/villa-k-bedroom.png" alt="villa-k-bedroom" />
+                    <g-image class="h-full w-full object-cover" src="/img/siwa_balcony.jpg" alt="villa-k-bedroom" />
                 </div>
             </section>
 
             <!-- Half 2 -->
             <section class="grid lg:grid-cols-2 p-5 lg:p-0 lg:mt-[150px]">
                 <div class="rounded-lg lg:rounded-l-none lg:rounded-r-lg overflow-hidden">
-                    <g-image class="h-full w-full object-cover" src="/img/villa-k-bedroom-1.png"
+                    <g-image class="h-full w-full object-cover" src="/img/siwa_living.jpg"
                         alt="villa-k-bedroom" />
                 </div>
                 <div class="lg:px-[100px] mt-5 lg:mt-0   lg:text-right">
@@ -227,7 +227,7 @@
                     </h1>
                 </div>
                 <div class="mt-10 lg:mt-[100px]">
-                    <g-image class="h-full w-full object-cover" src="/GF.svg" alt="g-floor" />
+                    <g-image class="h-full w-full object-cover" src="/plan/ground_floor.jpg" alt="ground-floor" />
                 </div>
                 <div class="mt-5 lg:mt-[80px]">
                     <h1 class="text-2xl lg:text-4xl font-medium leading-[54px] text-center">Ground Floor</h1>
@@ -253,7 +253,7 @@
             <!-- Floor Plan 2 -->
             <section class="briix-container   mt-20 lg:mt-[190px]">
                 <div class="mt-10 lg:mt-[100px]">
-                    <g-image class="h-full w-full object-cover" src="/UF.svg" alt="g-floor" />
+                    <g-image class="h-full w-full object-cover" src="/plan/upper_floor.jpg" alt="upper-floor" />
                 </div>
                 <div class="mt-5 lg:mt-[80px]">
                     <h1 class="text-2xl lg:text-4xl font-medium leading-[54px] text-center">Upper Floor</h1>
@@ -405,7 +405,7 @@ export default {
                     area: 261,
                     bed: 2,
                     bath: 2,
-                    img: "Villa1.png"
+                    img: "card_villa_a.jpg"
                 },
                 {
                     name: "Villa B",
@@ -414,7 +414,7 @@ export default {
                     area: 261,
                     bed: 2,
                     bath: 2,
-                    img: "Villa2.png"
+                    img: "card_villa_b.jpg"
                 }
             ]
         }

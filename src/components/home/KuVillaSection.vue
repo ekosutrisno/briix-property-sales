@@ -4,13 +4,13 @@
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full lg:mt-10">
-        <g-image class="h-full w-full object-cover" src="/img/KuVillas.png" alt="ku-villa-bg"/>
+        <g-image class="h-full w-full object-cover" src="/imgs/hero_ku_villa.jpg" alt="hero-ku-villa"/>
     </div>
 
     <!-- Masterplan -->
     <div class="lg:mt-[85px] grid lg:grid-cols-2 briix-container">
         <div>
-            <g-image src="/img/KuMasterplan.png" alt="master-plan-light"/>
+            <g-image src="/imgs/ku_master_plan.jpg" alt="ku-master-plan"/>
         </div>
         <div class="  flex flex-col justify-center">
             <div class="inline-flex items-center space-x-5 lg:pl-10">
@@ -131,7 +131,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Ku1.png"
+                img: "card_ku_1.jpg"
             },
             {
                 name: "Ku Rooms With Private Pools",
@@ -140,7 +140,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Ku2.png"
+                img: "card_ku_2.jpg"
             },
             {
                 name: "Two Bedrooms Family Suite",
@@ -149,7 +149,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Ku3.png"
+                img: "card_ku_3.jpg"
             },
             {
                 name: "Two Bedrooms Pool Villas",
@@ -158,7 +158,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Ku4.png"
+                img: "card_ku_4.jpg"
             }
         ]
 

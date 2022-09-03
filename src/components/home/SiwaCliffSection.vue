@@ -5,21 +5,7 @@
 
         <!-- Images Hero With Carrousel -->
         <div class="w-full lg:mt-10">
-            <g-image class="h-full w-full object-cover" src="/img/hero-siwa-cliff.png" alt="siwa-cliff-bg" />
-        </div>
-
-        <!-- Masterplan Button -->
-        <div class="my-24 mx-auto text-center hidden">
-            <div class="lg:space-x-8 space-y-8 lg:space-y-0">
-                <button type="button"
-                    @click="setImage('MasterplanLight.png')"
-                    class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-briix-blue-1 text-briix-primary">The
-                    Masterplan</button>
-                <button type="button"
-                    @click="setImage('MasterplanDark.jpg')"
-                    class="rounded-full py-2.5 px-[30px] hover:shadow-cst border bg-[#F9F9F9] text-[#A6A6A6]">Masterplan
-                    Isolated Night</button>
-            </div>
+            <g-image class="h-full w-full object-cover" src="/imgs/hero_siwa_cliff.jpg" alt="hero-siwa-cliff" />
         </div>
 
         <!-- Masterplan -->
@@ -34,7 +20,7 @@
                     SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok
                     with it's unique approach to sustainability through design, service and living.</p>
             </div>
-            <g-image :src="`/img/${masterPlanImg}`" alt="master-plan-light" />
+            <g-image src="/imgs/master_plan.jpg" alt="master-plan" />
         </div>
 
 
@@ -83,7 +69,7 @@
             <div
                 class="w-full overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
-                    <g-image class="h-full w-full object-cover rounded-[15px]" src="/img/villa-k.png"
+                    <g-image class="h-full w-full object-cover rounded-[15px]" src="/img/villa_k.jpg"
                         alt="available-img" />
                 </div>
                 <div class="lg:p-8 p-4 py-8">
@@ -259,7 +245,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa1.png"
+                img: "card_villa_a.jpg"
             },
             {
                 name: "Villa B",
@@ -268,7 +254,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa2.png"
+                img: "card_villa_b.jpg"
             },
             {
                 name: "Villa C",
@@ -277,7 +263,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa2.png"
+                img: "card_villa_c.jpg"
             },
             {
                 name: "Villa D",
@@ -286,7 +272,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa4.png"
+                img: "card_villa_d.jpg"
             },
             {
                 name: "Villa G",
@@ -295,7 +281,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa5.png"
+                img: "card_villa_g.jpg"
             },
             {
                 name: "Villa I",
@@ -304,7 +290,7 @@ export default {
                 area: 261,
                 bed: 2,
                 bath: 2,
-                img: "Villa6.png"
+                img: "card_villa_i.jpg"
             },
         ],
         masterPlanImg: 'MasterplanLight.png',
