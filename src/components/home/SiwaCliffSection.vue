@@ -16,7 +16,7 @@
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master
                         Plan</h1>
                 </div>
-                <p class="lg:text-xl text-briix-white leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
+                <p class="lg:text-xl text-briix-body leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
                     SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok
                     with it's unique approach to sustainability through design, service and living.</p>
             </div>
