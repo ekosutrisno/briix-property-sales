@@ -1,0 +1,79 @@
+[
+    {
+      "id": "0fe1c6d2-0141-46be-a65c-98f4bdec033c",
+      "name": "Villa A",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_a.jpg",
+      "planImg": "villa_a.png"
+    },
+    {
+      "id": "0e441c16-8300-4763-bc78-9b62e69bf176",
+      "name": "Villa B",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_b.jpg",
+      "planImg": "villa_b.png"
+    },
+    {
+      "id": "dd7a80d0-b779-497a-a853-0803b39775d8",
+      "name": "Villa C",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_c.jpg",
+      "planImg": "villa_c.png"
+    },
+    {
+      "id": "ef8ed27b-5776-48ac-890e-4cdfc0f91627",
+      "name": "Villa D",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_d.jpg",
+      "planImg": "villa_d.png"
+    },
+    {
+      "id": "0cc45af7-b978-4a08-8403-4d0652153f35",
+      "name": "Villa G",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_g.jpg",
+      "planImg": "villa_g.png"
+    },
+    {
+      "id": "e35de1a2-3122-45b7-b692-46c0801ab38a",
+      "name": "Villa I",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_i.jpg",
+      "planImg": "villa_i.png"
+    },
+    {
+      "id": "f5df98fa-89e2-4c8f-bce2-fcf65cdac977",
+      "name": "Villa K",
+      "price": "13,000,000,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_villa_i.jpg",
+      "planImg": "villa_k.png"
+    }
+  ]

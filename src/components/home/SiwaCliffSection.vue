@@ -16,7 +16,7 @@
                     <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master
                         Plan</h1>
                 </div>
-                <p :class="[dark ? 'text-white' : 'text-briix-body']" class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
+                <p class="lg:text-xl text-briix-white leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
                     SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok
                     with it's unique approach to sustainability through design, service and living.</p>
             </div>
@@ -230,6 +230,7 @@ export default {
         ],
         villas: [
             {
+                id: "0fe1c6d2-0141-46be-a65c-98f4bdec033c",
                 name: "Villa A",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -239,6 +240,7 @@ export default {
                 img: "card_villa_a.jpg"
             },
             {
+                id: "0e441c16-8300-4763-bc78-9b62e69bf176",
                 name: "Villa B",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -248,6 +250,7 @@ export default {
                 img: "card_villa_b.jpg"
             },
             {
+                id: "dd7a80d0-b779-497a-a853-0803b39775d8",
                 name: "Villa C",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -257,6 +260,7 @@ export default {
                 img: "card_villa_c.jpg"
             },
             {
+                id: "ef8ed27b-5776-48ac-890e-4cdfc0f91627",
                 name: "Villa D",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -266,6 +270,7 @@ export default {
                 img: "card_villa_d.jpg"
             },
             {
+                id: "0cc45af7-b978-4a08-8403-4d0652153f35",
                 name: "Villa G",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -275,6 +280,7 @@ export default {
                 img: "card_villa_g.jpg"
             },
             {
+                id: "e35de1a2-3122-45b7-b692-46c0801ab38a",
                 name: "Villa I",
                 price: "13,000,000,000",
                 address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -283,20 +289,8 @@ export default {
                 bath: 2,
                 img: "card_villa_i.jpg"
             },
-        ],
-        masterPlanImg: 'MasterplanLight.png',
-        dark: false
+        ]
     }),
-    components: { CardFacility, CardProperty, SiwaCliffCarrousel },
-    methods:{
-        setImage(img){
-            if(img == 'MasterplanDark.jpg')
-                this.dark = true;
-            else
-                this.dark = false;
-
-            this.masterPlanImg = img;
-        }
-    }
+    components: { CardFacility, CardProperty, SiwaCliffCarrousel }
 }
 </script>

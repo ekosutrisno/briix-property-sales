@@ -14,8 +14,7 @@
 
                             <div
                                 class="lg:min-w-[416px] px-10 lg:px-20 lg:min-h-[179px] border-[3px] border-white text-white grid place-content-center">
-                                <h1 class="font-semibold text-3xl lg:text-[64px] leading-[96px] tracking-wide">VILLA K
-                                </h1>
+                                <h1 class="font-semibold text-3xl lg:text-[64px] leading-[96px] tracking-wide uppercase">{{property.name || 'VILLA K'}}</h1>
                             </div>
                         </div>
                     </div>
@@ -26,8 +25,8 @@
             <section class="briix-container lg:mt-[78px]">
                 <div class="py-8  ">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                        <p class="lg:text-5xl text-2xl leading-[50px] font-semibold">Villa K</p>
-                        <p class="lg:text-[32px] leading-[33px] font-medium text-briix-primary">IDR 13,000,000,000</p>
+                        <p class="lg:text-5xl text-2xl leading-[50px] font-semibold">{{property.name || 'Villa K'}}</p>
+                        <p class="lg:text-[32px] leading-[33px] font-medium text-briix-primary">IDR {{property.price || '13,000,000,000'}}</p>
                     </div>
 
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between w-full">
@@ -38,8 +37,7 @@
                                     d="M7.41093 6.40787C8.6344 5.1844 10.2938 4.49707 12.024 4.49707C13.7542 4.49707 15.4136 5.1844 16.6371 6.40787C17.8605 7.63133 18.5479 9.2907 18.5479 11.0209C18.5479 12.7512 17.8605 14.4105 16.6371 15.634L12.024 20.2471L7.41093 15.634C6.8051 15.0282 6.32452 14.309 5.99664 13.5175C5.66876 12.726 5.5 11.8777 5.5 11.0209C5.5 10.1642 5.66876 9.31585 5.99664 8.52433C6.32452 7.73282 6.8051 7.01364 7.41093 6.40787ZM12.024 12.8848C12.5183 12.8848 12.9924 12.6884 13.342 12.3389C13.6915 11.9893 13.8879 11.5153 13.8879 11.0209C13.8879 10.5266 13.6915 10.0525 13.342 9.70298C12.9924 9.35344 12.5183 9.15707 12.024 9.15707C11.5297 9.15707 11.0556 9.35344 10.706 9.70298C10.3565 10.0525 10.1601 10.5266 10.1601 11.0209C10.1601 11.5153 10.3565 11.9893 10.706 12.3389C11.0556 12.6884 11.5297 12.8848 12.024 12.8848Z"
                                     fill="currentColor" />
                             </svg>
-                            <p class="font-normal text-briix-body">Prabu, Pujut, Central Lombok Regency, West Nusa
-                                Tenggara</p>
+                            <p class="font-normal text-briix-body">{{property.address || 'Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara'}}</p>
                         </div>
 
                         <div class="inline-flex items-center justify-between lg:space-x-3 mt-8">
@@ -170,7 +168,7 @@
                         The SIWA Cliffs property marks a new dawn in luxury property development and management in South
                         Lombok with it's unique approach to sustainability through design, service and living.</p>
                 </div>
-                <g-image src="/plan/villa_b.png" alt="master-plan-villa" />
+                <g-image :src="require(`!!assets-loader!@images/plan/${property.planImg||'villa_a.png'}`)" :alt="property.planImg" />
             </section>
 
 
@@ -227,7 +225,7 @@
                     </h1>
                 </div>
                 <div class="mt-10 lg:mt-[100px]">
-                    <g-image class="h-full w-full object-cover" src="/plan/ground_floor.jpg" alt="ground-floor" />
+                    <g-image class="h-full w-full object-cover" src="@/assets/images/plan/ground_floor.jpg" alt="ground-floor" />
                 </div>
                 <div class="mt-5 lg:mt-[80px]">
                     <h1 class="text-2xl lg:text-4xl font-medium leading-[54px] text-center">Ground Floor</h1>
@@ -253,7 +251,7 @@
             <!-- Floor Plan 2 -->
             <section class="briix-container   mt-20 lg:mt-[190px]">
                 <div class="mt-10 lg:mt-[100px]">
-                    <g-image class="h-full w-full object-cover" src="/plan/upper_floor.jpg" alt="upper-floor" />
+                    <g-image class="h-full w-full object-cover" src="@/assets/images/plan/upper_floor.jpg" alt="upper-floor" />
                 </div>
                 <div class="mt-5 lg:mt-[80px]">
                     <h1 class="text-2xl lg:text-4xl font-medium leading-[54px] text-center">Upper Floor</h1>
@@ -333,19 +331,19 @@
         </section>
     </Layout>
 </template>
-
 <script>
-import Hero from '../components/home/Hero.vue';
-import OurProperties from '../components/home/OurProperties.vue';
-import WhyUseBriix from '../components/home/WhyUseBriix.vue';
-import SiwaCliffSection from '../components/home/SiwaCliffSection.vue';
-import Footer from '../components/home/Footer.vue';
-import KuVillaSection from '../components/home/KuVillaSection.vue';
-import AraVillaSection from '../components/home/AraVillaSection.vue';
-import SiwaUluwatuVillaSection from '../components/home/SiwaUluwatuVillaSection.vue';
-import LogoBriix from '../components/svg/LogoBriix.vue';
-import CardFacility from '../components/cards/CardFacility.vue';
-import CardProperty from '../components/cards/CardProperty.vue';
+import Hero from '@/components/home/Hero.vue';
+import OurProperties from '@/components/home/OurProperties.vue';
+import WhyUseBriix from '@/components/home/WhyUseBriix.vue';
+import SiwaCliffSection from '@/components/home/SiwaCliffSection.vue';
+import Footer from '@/components/home/Footer.vue';
+import KuVillaSection from '@/components/home/KuVillaSection.vue';
+import AraVillaSection from '@/components/home/AraVillaSection.vue';
+import SiwaUluwatuVillaSection from '@/components/home/SiwaUluwatuVillaSection.vue';
+import LogoBriix from '@/components/svg/LogoBriix.vue';
+import CardFacility from '@/components/cards/CardFacility.vue';
+import CardProperty from '@/components/cards/CardProperty.vue';
+import properties from '@/data/properties.json'
 export default {
     components: { Hero, OurProperties, WhyUseBriix, SiwaCliffSection, Footer, KuVillaSection, AraVillaSection, SiwaUluwatuVillaSection, LogoBriix, CardFacility, CardProperty },
     metaInfo: {
@@ -359,6 +357,8 @@ export default {
     },
     data() {
         return {
+            properties,
+            property: {},
             v: {
                 id: "56826f08-ce61-4ea7-bd01-52a34f6b52e5",
                 icon: "villa-sm.svg",
@@ -399,6 +399,7 @@ export default {
             ],
             villas: [
                 {
+                    id: "0fe1c6d2-0141-46be-a65c-98f4bdec033c",
                     name: "Villa A",
                     price: "13,000,000,000",
                     address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -408,6 +409,7 @@ export default {
                     img: "card_villa_a.jpg"
                 },
                 {
+                    id: "0e441c16-8300-4763-bc78-9b62e69bf176",
                     name: "Villa B",
                     price: "13,000,000,000",
                     address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
@@ -415,9 +417,20 @@ export default {
                     bed: 2,
                     bath: 2,
                     img: "card_villa_b.jpg"
-                }
+                },
             ]
         }
     },
+
+    mounted(){
+        this.getSingleProperty(this.$route.query.id)
+    },
+    methods:{
+        getSingleProperty(id){
+            const filtered = this.properties.filter(prop => prop.id == id );
+            if(filtered.length)
+                this.property = filtered[0];
+        }
+    }
 }
 </script>

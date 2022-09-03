@@ -5,6 +5,9 @@ module.exports = {
   siteDescription: 'Briix Properties Sales Homepage Website',
   titleTemplate: '%s - Briix',
   plugins: [],
+  chainWebpack: config => {
+    config.resolve.alias.set('@images', '@/assets/images')
+  },
   css: {
     loaderOptions: {
       postcss: {
