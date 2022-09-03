@@ -116,15 +116,30 @@
                     </div>
 
                     <!-- Facility -->
-                    <div class="mt-8 grid lg:flex lg:items-center lg:justify-between">
-                        <div class="flex flex-row items-center space-x-5   mb-1 ml-2 lg:ml-0">
-                            <g-image :src="`/icons/${v.icon}`" :alt="v.icon" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  v.title  }}</p>
+                    <div class="mt-8 grid lg:flex lg:items-center lg:justify-between -ml-2 lg:-ml-0">
+                        <div class="flex flex-row items-center mb-2 ml-2 lg:ml-0">
+                          <g-image class="mr-5" :src="`/icons/villa-sm.svg`" alt="area-villa" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.area  }} m² building area</p>
                         </div>
-                        <div v-for="fac in villaKs" :key="fac.id"
-                            class="flex flex-row items-center space-x-4  ">
-                            <g-image :src="`/icons/${fac.icon}`" :alt="fac.icon" />
-                            <p class="text-briix-grey-7 lg:font-semibold lg:mb-1">{{  fac.title  }}</p>
+                        <div class="flex flex-row items-center">
+                            <g-image class="mr-4" :src="`/icons/area.svg`" alt="area" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  652  }} m² lot area</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <g-image class="mr-4" :src="`/icons/pool-sm.svg`" alt="pool" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  77  }} m² pool size</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <g-image class="mr-4" :src="`/icons/floor.svg`" alt="floor" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  2  }} Floors</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <g-image class="mr-4" :src="`/icons/bed.svg`" alt="bed" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.bed  }} Bedrooms</p>
+                        </div>
+                        <div class="flex flex-row items-center">
+                            <g-image class="mr-4" :src="`/icons/bath.svg`" alt="bath" />
+                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.bath  }} Bathrooms</p>
                         </div>
                     </div>
 
@@ -174,13 +189,13 @@
 
             <!-- Half 1 -->
             <section class="grid lg:grid-cols-2 p-5 lg:p-0 lg:mt-[215px]">
-                <div class="lg:px-[100px] mt-5 lg:mt-0   order-last lg:order-first">
+                <div class="lg:px-[100px] mt-3 lg:mt-0   order-last lg:order-first">
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
-                    <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Fully managed
+                    <h2 class="font-semibold lg:mt-4 text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Fully managed
                         wellness resort</h2>
 
-                    <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px]">
+                    <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px] lg:leading-[40px]">
                         Villa K is situated on the first row of villas on SIWA Cliffs first phase of developments. The
                         villa comprises of three ensuite bedrooms, a spacious living and dining
                         area and a fully equipped kitchen.
@@ -203,10 +218,10 @@
                 <div class="lg:px-[100px] mt-5 lg:mt-0   lg:text-right">
                     <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                         VILLA K</h1>
-                    <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Providing world
+                    <h2 class="font-semibold lg:mt-4 text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Providing world
                         class services</h2>
 
-                    <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px]">
+                    <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px] lg:leading-[40px]">
                         Villa K is situated on the first row of villas on SIWA Cliffs first phase of developments. The
                         villa comprises of three ensuite bedrooms, a spacious living and dining
                         area and a fully equipped kitchen.
@@ -359,51 +374,13 @@ export default {
         return {
             properties,
             property: {},
-            v: {
-                id: "56826f08-ce61-4ea7-bd01-52a34f6b52e5",
-                icon: "villa-sm.svg",
-                col: false,
-                title: "439 m² building area"
-            },
-            villaKs: [
-                {
-                    id: "a6d9c1f9-de41-46eb-9d13-7dcd7d62542e",
-                    icon: "area.svg",
-                    col: false,
-                    title: "652 m² lot area"
-                },
-                {
-                    id: "7a863210-bcd0-4aa5-9d93-4af5cb2c96a7",
-                    icon: "pool-sm.svg",
-                    col: false,
-                    title: "77 m² pool size"
-                },
-                {
-                    id: "1c4da027-9720-4dd1-b277-20b730b46e94",
-                    icon: "floor.svg",
-                    col: false,
-                    title: "2 Floors"
-                },
-                {
-                    id: "6bd4a5f1-d8b0-4b42-8288-fcff02e83fd6",
-                    icon: "bed.svg",
-                    col: false,
-                    title: "3 Bedrooms"
-                },
-                {
-                    id: "52f7b449-eaa9-4463-84df-f4b809401311",
-                    icon: "bath.svg",
-                    col: false,
-                    title: "3 Bathrooms"
-                }
-            ],
             villas: [
                 {
                     id: "0fe1c6d2-0141-46be-a65c-98f4bdec033c",
                     name: "Villa A",
-                    price: "13,000,000,000",
+                    price: "10,605,750,000",
                     address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                    area: 261,
+                    area: 253,
                     bed: 2,
                     bath: 2,
                     img: "card_villa_a.jpg"
@@ -411,10 +388,10 @@ export default {
                 {
                     id: "0e441c16-8300-4763-bc78-9b62e69bf176",
                     name: "Villa B",
-                    price: "13,000,000,000",
+                    price: "11,790,750,000",
                     address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                    area: 261,
-                    bed: 2,
+                    area: 303,
+                    bed: 3,
                     bath: 2,
                     img: "card_villa_b.jpg"
                 },

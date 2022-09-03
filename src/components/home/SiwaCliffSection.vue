@@ -52,20 +52,20 @@
            
             <div class="inline-flex items-center space-x-5">
                 <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-                <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas</h1>
+                <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
             </div>
 
             <!-- Card Available -->
             <div
                 class="w-full overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
-                    <g-image class="h-full w-full object-cover rounded-[15px]" src="/img/villa_k.jpg"
+                    <g-image class="h-full w-full object-cover rounded-[15px]" src="@/assets/images/siwa_cliff_villa_k.jpg"
                         alt="available-img" />
                 </div>
                 <div class="lg:p-8 p-4 py-8">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
                         <p class="lg:text-4xl text-2xl leading-[50px] font-semibold">Villa K</p>
-                        <p class="lg:text-2xl leading-[33px] font-medium text-briix-primary">IDR 13,000,000,000</p>
+                        <p class="lg:text-2xl leading-[33px] font-medium text-briix-primary">IDR 23,640,750,000</p>
                     </div>
 
                     <div class="inline-flex items-start lg:space-x-2 mt-4">
@@ -86,24 +86,18 @@
 
                     <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between lg:space-x-20 w-full">
                         <button type="button"
-                            class="rounded-full w-full border-2 hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-10 inline-flex items-center justify-center space-x-4">
-                            <p>Live Chat</p>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12 2C6.486 2 2 6.486 2 12V16.143C2 17.167 2.897 18 4 18H5C5.26522 18 5.51957 17.8946 5.70711 17.7071C5.89464 17.5196 6 17.2652 6 17V11.857C6 11.5918 5.89464 11.3374 5.70711 11.1499C5.51957 10.9624 5.26522 10.857 5 10.857H4.092C4.648 6.987 7.978 4 12 4C16.022 4 19.352 6.987 19.908 10.857H19C18.7348 10.857 18.4804 10.9624 18.2929 11.1499C18.1054 11.3374 18 11.5918 18 11.857V18C18 19.103 17.103 20 16 20H14V19H10V22H16C18.206 22 20 20.206 20 18C21.103 18 22 17.167 22 16.143V12C22 6.486 17.514 2 12 2Z"
-                                    fill="#1F9ED3" />
+                            class="rounded-full w-full border-2 hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-10 inline-flex items-center justify-center space-x-3">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.5 12.4619H8.51M12.5 12.4619H12.51M16.5 12.4619H16.51M21.5 12.4619C21.5 16.8799 17.47 20.4619 12.5 20.4619C11.0286 20.4669 9.57479 20.1427 8.245 19.5129L3.5 20.4619L4.895 16.7419C4.012 15.5039 3.5 14.0359 3.5 12.4619C3.5 8.04391 7.53 4.46191 12.5 4.46191C17.47 4.46191 21.5 8.04391 21.5 12.4619Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
+                            <p>Live Chat</p>
                         </button>
                         <button type="button"
-                            class="rounded-full w-full text-white bg-briix-primary hover:bg-briix-primary/90 transition py-3 px-10 inline-flex items-center justify-center space-x-4">
-                            <p>Enquire Now</p>
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path
-                                    d="M12.586 2.586C12.211 2.2109 11.7024 2.00011 11.172 2H4C3.46957 2 2.96086 2.21071 2.58579 2.58579C2.21071 2.96086 2 3.46957 2 4V11.172C2.00011 11.7024 2.2109 12.211 2.586 12.586L10.586 20.586C10.9611 20.9609 11.4697 21.1716 12 21.1716C12.5303 21.1716 13.0389 20.9609 13.414 20.586L20.586 13.414C20.9609 13.0389 21.1716 12.5303 21.1716 12C21.1716 11.4697 20.9609 10.9611 20.586 10.586L12.586 2.586ZM7 9C6.46943 8.99987 5.96065 8.78897 5.58558 8.41371C5.21051 8.03845 4.99987 7.52957 5 6.999C5.00013 6.46843 5.21103 5.95965 5.58629 5.58458C5.96155 5.20951 6.47043 4.99887 7.001 4.999C7.53157 4.99913 8.04035 5.21003 8.41542 5.58529C8.79049 5.96055 9.00113 6.46943 9.001 7C9.00087 7.53057 8.78997 8.03935 8.41471 8.41442C8.03945 8.78949 7.53057 9.00013 7 9Z"
-                                    fill="white" />
+                            class="rounded-full w-full text-white bg-briix-primary hover:bg-briix-primary/90 transition py-3 px-10 inline-flex items-center justify-center space-x-3">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.00002 6.46193C6.80224 6.46193 6.6089 6.52058 6.44445 6.63046C6.28 6.74034 6.15182 6.89652 6.07614 7.07925C6.00045 7.26197 5.98065 7.46304 6.01923 7.65702C6.05782 7.851 6.15306 8.02918 6.29291 8.16904C6.43276 8.30889 6.61095 8.40413 6.80493 8.44272C6.99891 8.4813 7.19997 8.4615 7.3827 8.38581C7.56543 8.31012 7.7216 8.18195 7.83149 8.0175C7.94137 7.85305 8.00002 7.65971 8.00002 7.46193C8.00002 7.19671 7.89466 6.94236 7.70712 6.75482C7.51959 6.56729 7.26523 6.46193 7.00002 6.46193ZM21.71 12.2419L12.23 2.78193C12.1368 2.68139 12.0239 2.60111 11.8983 2.54606C11.7727 2.49101 11.6371 2.46237 11.5 2.46193H5.50002C5.36841 2.46117 5.23795 2.48639 5.11611 2.53616C4.99427 2.58592 4.88346 2.65925 4.79002 2.75193L2.29002 5.24193C2.19734 5.33537 2.12401 5.44619 2.07425 5.56802C2.02448 5.68986 1.99926 5.82032 2.00002 5.95193V11.9519C2.0037 12.2167 2.10728 12.4703 2.29002 12.6619L11.78 22.1619C11.9717 22.3447 12.2253 22.4482 12.49 22.4519C12.6216 22.4527 12.7521 22.4275 12.8739 22.3777C12.9958 22.3279 13.1066 22.2546 13.2 22.1619L21.71 13.6519C21.8027 13.5585 21.876 13.4477 21.9258 13.3258C21.9756 13.204 22.0008 13.0735 22 12.9419C21.9938 12.6806 21.8904 12.431 21.71 12.2419ZM12.49 20.0519L4.00002 11.5519V6.36193L5.90002 4.46193H11.08L19.58 12.9519L12.49 20.0519Z" fill="white"/>
                             </svg>
+                            <p>Enquire Now</p>
                         </button>
                     </div>
 
@@ -125,6 +119,7 @@
 import CardFacility from '../cards/CardFacility.vue';
 import CardProperty from '../cards/CardProperty.vue';
 import SiwaCliffCarrousel from './SiwaCliffCarrousel.vue';
+import properties from '@/data/properties.json';
 export default {
     data: () => ({
         facilities: [
@@ -228,68 +223,7 @@ export default {
                 title: "3 Bathrooms"
             }
         ],
-        villas: [
-            {
-                id: "0fe1c6d2-0141-46be-a65c-98f4bdec033c",
-                name: "Villa A",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_a.jpg"
-            },
-            {
-                id: "0e441c16-8300-4763-bc78-9b62e69bf176",
-                name: "Villa B",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_b.jpg"
-            },
-            {
-                id: "dd7a80d0-b779-497a-a853-0803b39775d8",
-                name: "Villa C",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_c.jpg"
-            },
-            {
-                id: "ef8ed27b-5776-48ac-890e-4cdfc0f91627",
-                name: "Villa D",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_d.jpg"
-            },
-            {
-                id: "0cc45af7-b978-4a08-8403-4d0652153f35",
-                name: "Villa G",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_g.jpg"
-            },
-            {
-                id: "e35de1a2-3122-45b7-b692-46c0801ab38a",
-                name: "Villa I",
-                price: "13,000,000,000",
-                address: "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_villa_i.jpg"
-            },
-        ]
+        villas: properties
     }),
     components: { CardFacility, CardProperty, SiwaCliffCarrousel }
 }

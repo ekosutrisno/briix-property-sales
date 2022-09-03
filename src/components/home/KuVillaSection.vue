@@ -39,10 +39,10 @@
     </div>
 
     <!-- Available Villas on the Market -->
-    <div class="lg:mt-[170px] briix-container">
+    <div class="lg:mt-[170px] mt-20 briix-container">
         <div class="inline-flex items-center space-x-5">
             <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-            <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas</h1>
+            <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
         </div>
     </div>
 

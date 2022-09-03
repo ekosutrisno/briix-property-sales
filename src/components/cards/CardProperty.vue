@@ -6,8 +6,8 @@
 
         <div class="lg:p-8 p-4">
              <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                <p class="lg:text-4xl text-3xl leading-[50px] font-semibold"> {{villa.name}} </p>
-                <p v-if="villa.price" class="lg:text-2xl text-xl lg:leading-[33px] font-medium text-briix-primary">IDR {{ villa.price }}</p>
+                <p :class="[villa.price ? 'lg:text-[32px]' : 'lg:text-[28px]']" class="text-2xl leading-[50px] font-semibold"> {{villa.name}} </p>
+                <p v-if="villa.price" class="text-xl lg:text-2xl lg:leading-[33px] font-medium text-briix-primary">IDR {{ villa.price }}</p>
             </div>
 
             <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
