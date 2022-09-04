@@ -15,4 +15,9 @@ export default function (Vue, { router, head, isClient }) {
     name: 'keywords',
     content: 'Property,Investments,Accomodations,Villa,Lombok Island'
   })
+
+  head.meta.push({
+    name: 'robots',
+    content: 'all'
+  })
 }
