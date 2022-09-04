@@ -8,7 +8,8 @@
       "bed": 2,
       "bath": 2,
       "img": "card_villa_a.jpg",
-      "planImg": "villa_a.png"
+      "planImg": "villa_a.png",
+      "villaGroup":"siwa_cliff"
     },
     {
       "id": "0e441c16-8300-4763-bc78-9b62e69bf176",
@@ -19,7 +20,8 @@
       "bed": 3,
       "bath": 2,
       "img": "card_villa_b.jpg",
-      "planImg": "villa_b.png"
+      "planImg": "villa_b.png",
+      "villaGroup":"siwa_cliff"
     },
     {
       "id": "dd7a80d0-b779-497a-a853-0803b39775d8",
@@ -30,7 +32,8 @@
       "bed": 3,
       "bath": 2,
       "img": "card_villa_c.jpg",
-      "planImg": "villa_c.png"
+      "planImg": "villa_c.png",
+      "villaGroup":"siwa_cliff"
     },
     {
       "id": "ef8ed27b-5776-48ac-890e-4cdfc0f91627",
@@ -41,7 +44,8 @@
       "bed": 3,
       "bath": 2,
       "img": "card_villa_d.jpg",
-      "planImg": "villa_d.png"
+      "planImg": "villa_d.png",
+      "villaGroup":"siwa_cliff"
     },
     {
       "id": "0cc45af7-b978-4a08-8403-4d0652153f35",
@@ -52,7 +56,8 @@
       "bed": 2,
       "bath": 2,
       "img": "card_villa_g.jpg",
-      "planImg": "villa_g.png"
+      "planImg": "villa_g.png",
+      "villaGroup":"siwa_cliff"
     },
     {
       "id": "e35de1a2-3122-45b7-b692-46c0801ab38a",
@@ -63,6 +68,55 @@
       "bed": 2,
       "bath": 2,
       "img": "card_villa_i.jpg",
-      "planImg": "villa_i.png"
+      "planImg": "villa_i.png",
+      "villaGroup":"siwa_cliff"
+    },
+    {
+      "id": "d783d13b-d24d-478a-8474-ece22d9e762b",
+      "name": "Ku Standard Room",
+      "price": "",
+      "address": "Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_ku_1.jpg",
+      "planImg": "",
+      "villaGroup":"ku_villas"
+    },
+    {
+      "id": "1606451f-a2a8-4334-8114-9f7417500007",
+      "name": "Ku Rooms With Private Pools",
+      "price": "",
+      "address": "Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_ku_2.jpg",
+      "planImg": "",
+      "villaGroup":"ku_villas"
+    },
+    {
+      "id": "f2bf923e-8f79-4e10-9329-ccab97c78618",
+      "name": "Two Bedrooms Family Suite",
+      "price": "",
+      "address": "Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_ku_3.jpg",
+      "planImg": "",
+      "villaGroup":"ku_villas"
+    },
+    {
+      "id": "0c35a46d-26df-433a-b660-38814aeb4897",
+      "name": "Two Bedrooms Pool Villas",
+      "price": "",
+      "address": "Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
+      "area": 261,
+      "bed": 2,
+      "bath": 2,
+      "img": "card_ku_4.jpg",
+      "planImg": "",
+      "villaGroup":"ku_villas"
     }
   ]

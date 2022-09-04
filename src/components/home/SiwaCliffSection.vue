@@ -76,7 +76,7 @@
                     </div>
 
                     <!-- Facility -->
-                    <div class="mt-4 grid lg:gap-3 lg:grid-cols-2">
+                    <div class="mt-4 grid lg:gap-3 lg:grid-cols-2 -ml-2 lg:-ml-0">
                         <div class="flex flex-row items-center space-x-5   mb-3 lg:mb-0 ml-2">
                             <g-image :src="`/icons/${v.icon}`" :alt="v.icon" />
                             <p class="text-briix-grey-7 ml-2 lg:ml-0 lg:font-semibold">{{  v.title  }}</p>
@@ -108,7 +108,7 @@
 
         <!-- Card of Properties -->
         <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 mt-20 lg:mt-[100px]">
-            <CardProperty v-for="(villa, idx) in villas" :key="idx" :villa="villa" />
+            <CardProperty v-for="(villa, idx) in villasFiltered" :key="idx" :villa="villa" />
         </div>
 
 
@@ -223,8 +223,10 @@ export default {
                 title: "3 Bathrooms"
             }
         ],
-        villas: properties
     }),
+    computed:{
+        villasFiltered: ()=> properties.filter(data=> data.villaGroup == 'siwa_cliff')
+    },
     components: { CardFacility, CardProperty, SiwaCliffCarrousel }
 }
 </script>

@@ -17,9 +17,9 @@
                 <p class="font-normal text-briix-body"> {{ villa.address }} </p>
             </div>
 
-            <div class="flex flex-col lg:flex-row lg:items-center justify-between mt-4">
-                    <div class="flex ml-1   items-center space-x-3">
-                        <g-image :src="`/icons/villa-sm.svg`" alt="vill-1" class="mb-2 lg:mb-1"/>
+            <div class="flex flex-col lg:flex-row lg:items-center justify-between mt-4 -ml-2 lg:-ml-0">
+                    <div class="flex ml-2 lg:ml-1 items-center space-x-3">
+                        <g-image :src="`/icons/villa-sm.svg`" alt="vill-1" class="mb-2 lg:mb-1 mr-2 lg:mr-0"/>
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.area}} m2</p>
                     </div>
                     <div class="flex   items-center space-x-3">
@@ -33,7 +33,7 @@
             </div>
 
             <div class="mt-[22px] pt-[22px] border-t flex items-center justify-between border-[#C7E7F4]">
-                <g-link :to="`/detail?id=${villa.id}`" class="rounded-full border-2 cursor-default lg:cursor-pointer hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-6 lg:px-10 w-auto inline-flex items-center justify-center space-x-4">
+                <g-link :to="`/detail?id=${villa.id}&group=${villa.villaGroup}`" class="rounded-full border-2 cursor-default lg:cursor-pointer hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-6 lg:px-10 w-auto inline-flex items-center justify-center space-x-4">
                     <p>See Details</p>
                 </g-link>
                 <div class="inline-flex items-center space-x-2">

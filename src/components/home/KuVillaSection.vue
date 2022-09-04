@@ -49,7 +49,7 @@
 
     <!-- Card of Properties -->
     <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 mt-5 lg:mt-[100px]">
-        <CardProperty v-for="(villa, idx) in villas" :key="idx" :villa="villa"/>
+        <CardProperty v-for="(villa, idx) in villasFiltered" :key="idx" :villa="villa"/>
     </div>
 
 
@@ -59,6 +59,7 @@
 <script>
 import CardFacility from '../cards/CardFacility.vue';
 import CardProperty from '../cards/CardProperty.vue';
+import properties from '@/data/properties.json';
 export default {
     data: () => ({
         facilities: [
@@ -122,47 +123,11 @@ export default {
                 col: true,
                 title: "Vallet Parking"
             },
-        ],
-          villas: [
-            {
-                name: "Ku Standard Room",
-                price:"",
-                address:"Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_ku_1.jpg"
-            },
-            {
-                name: "Ku Rooms With Private Pools",
-                price:"",
-                address:"Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_ku_2.jpg"
-            },
-            {
-                name: "Two Bedrooms Family Suite",
-                price:"",
-                address:"Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_ku_3.jpg"
-            },
-            {
-                name: "Two Bedrooms Pool Villas",
-                price:"",
-                address:"Jl. Baturiti I, Kuta, Kec. Pujut, Kabupaten Lombok Tengah, Nusa Tenggara Bar. 83573",
-                area: 261,
-                bed: 2,
-                bath: 2,
-                img: "card_ku_4.jpg"
-            }
         ]
-
     }),
+    computed:{
+        villasFiltered: ()=> properties.filter(data=> data.villaGroup == 'ku_villas')
+    },
     components: { CardFacility, CardProperty }
 }
 </script>
