@@ -1,7 +1,7 @@
 <template>
     <div class="min-h-[602px] border transition border-briix-blue-1 bg-white hover:shadow-custom-c1 rounded-[20px] pb-1 lg:pb-0">
         <div class="rounded-[20px] lg:h-[343px] overflow-hidden">
-            <g-image class="h-full w-full object-cover transition lg:hover:scale-110" :src="`/villa/${villa.img}`" :alt="villa.img"/>
+            <g-image class="h-full w-full object-cover transition lg:hover:scale-110" :src="require(`!!assets-loader!@images/villa/${villa.img}`)" :alt="villa.img"/>
         </div>
 
         <div class="lg:p-8 p-4">

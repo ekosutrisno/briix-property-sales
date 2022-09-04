@@ -1,7 +1,7 @@
 <template>
     <section class="min-h-screen lg:min-h-[918px] h-full relative w-full">
         <!-- Image and Overlay -->
-        <g-image class="h-full w-full object-cover absolute inset-0" src="/imgs/hero_master.jpg" alt="hero-master-img"/>
+        <g-image class="h-full w-full object-cover absolute inset-0" src="@/assets/images/imgs/hero_master.jpg" alt="hero-master-img"/>
         <div class="absolute mx-auto w-full h-full inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
 
         <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">

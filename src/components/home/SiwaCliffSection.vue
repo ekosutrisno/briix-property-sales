@@ -3,10 +3,8 @@
         <div class="-mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
             Siwa Cliff</div>
 
-        <!-- Images Hero With Carrousel -->
-        <div class="w-full lg:mt-10">
-            <g-image class="h-full w-full object-cover" src="/imgs/hero_siwa_cliff.jpg" alt="hero-siwa-cliff" />
-        </div>
+            <!-- Images Hero With Carrousel -->
+            <HeroCarrousel :images="images"/>
 
         <!-- Masterplan -->
         <div class="relative mt-20 lg:mt-56">
@@ -20,7 +18,7 @@
                     SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok
                     with it's unique approach to sustainability through design, service and living.</p>
             </div>
-            <g-image src="/imgs/master_plan.jpg" alt="master-plan" />
+            <g-image src="@/assets/images/imgs/master_plan.jpg" alt="master-plan" />
         </div>
 
 
@@ -120,6 +118,7 @@ import CardFacility from '../cards/CardFacility.vue';
 import CardProperty from '../cards/CardProperty.vue';
 import SiwaCliffCarrousel from './SiwaCliffCarrousel.vue';
 import properties from '@/data/properties.json';
+import HeroCarrousel from './HeroCarrousel.vue';
 export default {
     data: () => ({
         facilities: [
@@ -223,10 +222,15 @@ export default {
                 title: "3 Bathrooms"
             }
         ],
+        images:[
+            "hero_siwa_cliff.jpg",
+            "hero_siwa_uluwatu.jpg",
+            "hero_ku_villa.jpg",
+        ]
     }),
     computed:{
         villasFiltered: ()=> properties.filter(data=> data.villaGroup == 'siwa_cliff')
     },
-    components: { CardFacility, CardProperty, SiwaCliffCarrousel }
+    components: { CardFacility, CardProperty, SiwaCliffCarrousel, HeroCarrousel }
 }
 </script>

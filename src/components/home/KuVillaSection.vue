@@ -3,14 +3,12 @@
     <div class="  -mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
     
     <!-- Images Hero With Carrousel -->
-    <div class="w-full lg:mt-10">
-        <g-image class="h-full w-full object-cover" src="/imgs/hero_ku_villa.jpg" alt="hero-ku-villa"/>
-    </div>
+    <HeroCarrousel :images="images"/>
 
     <!-- Masterplan -->
     <div class="lg:mt-[85px] grid lg:grid-cols-2 briix-container">
         <div>
-            <g-image src="/imgs/ku_master_plan.jpg" alt="ku-master-plan"/>
+            <g-image src="@/assets/images/imgs/ku_master_plan.jpg" alt="ku-master-plan"/>
         </div>
         <div class="  flex flex-col justify-center">
             <div class="inline-flex items-center space-x-5 lg:pl-10">
@@ -60,6 +58,7 @@
 import CardFacility from '../cards/CardFacility.vue';
 import CardProperty from '../cards/CardProperty.vue';
 import properties from '@/data/properties.json';
+import HeroCarrousel from './HeroCarrousel.vue';
 export default {
     data: () => ({
         facilities: [
@@ -123,11 +122,16 @@ export default {
                 col: true,
                 title: "Vallet Parking"
             },
+        ],
+        images:[
+            "hero_ku_villa.jpg",
+            "hero_siwa_cliff.jpg",
+            "hero_siwa_uluwatu.jpg",
         ]
     }),
     computed:{
         villasFiltered: ()=> properties.filter(data=> data.villaGroup == 'ku_villas')
     },
-    components: { CardFacility, CardProperty }
+    components: { CardFacility, CardProperty, HeroCarrousel }
 }
 </script>

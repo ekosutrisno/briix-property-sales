@@ -10,4 +10,9 @@ export default function (Vue, { router, head, isClient }) {
     body: true
   })
 
+  // Add a meta tag
+  head.meta.push({
+    name: 'keywords',
+    content: 'Property,Investments,Accomodations,Villa,Lombok Island'
+  })
 }
