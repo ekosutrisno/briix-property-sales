@@ -19,28 +19,32 @@ export default {
                 bgImg: 'properties_01.jpg',
                 logo: 'siwa_logo.svg',
                 subLogo: 'cliff.svg',
-                soon: false
+                soon: false,
+                idRef: 'siwa_cliff_section',
             },
             {
                 id: '8593ee46-7064-4666-ab23-d1daa2a61d0b',
                 bgImg: 'properties_02.jpg',
                 logo: 'ku_logo.svg',
                 subLogo: '',
-                soon: false
+                soon: false,
+                idRef: 'ku_section',
             },
             {
                 id: '160844c5-4a3d-419e-9e2b-8a336e96e20f',
                 bgImg: 'properties_03.jpg',
                 logo: 'ara_logo.svg',
                 subLogo: '',
-                soon: true
+                soon: true,
+                idRef: 'ara_section',
             },
             {
                 id: '2033b496-4bf3-401c-8299-ba57b391b8f2',
                 bgImg: 'properties_04.jpg',
                 logo: 'siwa_logo.svg',
                 subLogo: 'uluwatu.svg',
-                soon: true
+                soon: true,
+                idRef: 'siwa_uluwatu_section',
             },
         ]
     })

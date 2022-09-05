@@ -1,22 +1,20 @@
 <template>
     <!-- Carrousel Fake Image -->
-    <div class="lg:mt-[150px] w-full">
+    <div>
         <ClientOnly>
             <Carousel 
-                paginationActiveColor="#1F9ED3" 
-                :autoplay="true" 
-                paginationColor="#9ee2fe" 
+                :autoplay="true"  
                 :speed="1000"
-                :paginationSize="10" 
+                :paginationEnabled="false"
                 easing="ease" 
                 :autoplayHoverPause="true"
-                :autoplayTimeout="5000"
+                :autoplayTimeout="7000"
                 :scrollPerPage="true" 
                 :perPage="1"
                 :loop="true"
             >
                 <Slide v-for="i in images" :key="i.id">
-                    <div class="h-52 lg:h-full max-h-screen w-full overflow-hidden shadow-custom">
+                    <div class="h-full w-full overflow-hidden shadow-custom">
                         <g-image class="w-full h-full object-cover" :src="require(`!!assets-loader!@images/${i.url}`)" />
                     </div>
                 </Slide>
@@ -40,6 +38,10 @@ export default {
     },
     data: () => ({
         images: [
+            {
+                id: 'f353026e-d32b-4820-9f7d-a71fb2d1ae3f',
+                url: 'imgs/hero_villa_k_master.jpg'
+            },
             {
                 id: 'b73ad0cb-8d3f-4964-9bcd-95541626b50a',
                 url: 'SIWA_DRONE_01.jpg'

@@ -2,21 +2,14 @@
     <Layout>
         <section class="wrapper-section-detail">
             <section class="min-h-screen lg:min-h-[918px] h-full relative w-full">
-                <!-- Image and Overlay -->
-                <g-image class="h-full w-full object-cover absolute inset-0" src="@/assets/images/imgs/hero_villa_k_master.jpg" alt="hero-villa-k-master" />
+                <!-- Clean Carrouses Master Individual -->
+                <IndividualCarrousel/>
                 <div
                     class="absolute mx-auto w-full inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
                     <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">
                         <header class="pt-8">
                             <LogoBriix />
                         </header>
-                        <div class="flex-1 flex flex-col items-center justify-center">
-
-                            <div
-                                class="lg:min-w-[416px] px-10 lg:px-20 lg:min-h-[179px] border-[3px] border-white text-white grid place-content-center">
-                                <h1 :class="[property.villaGroup == 'ku_villas' ? 'text-xl lg:text-4xl text-center' : 'text-3xl lg:text-[64px]']" class="font-semibold leading-tight py-5 tracking-wide uppercase">{{property.name || 'VILLA K'}}</h1>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </section>
@@ -26,7 +19,7 @@
                 <div class="py-8  ">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
                         <p class="lg:text-5xl text-2xl leading-[50px] font-semibold">{{property.name || 'Villa K'}}</p>
-                        <p class="lg:text-[32px] leading-[33px] font-medium text-briix-primary">IDR {{property.price || '13,000,000,000'}}</p>
+                        <p class="lg:text-[32px] leading-[33px] sm:hidden font-medium text-briix-primary">IDR {{property.price || '13,000,000,000'}}</p>
                     </div>
 
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between w-full">
@@ -40,7 +33,7 @@
                             <p class="font-normal text-briix-body">{{property.address || 'Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara'}}</p>
                         </div>
 
-                        <div class="inline-flex items-center justify-between lg:space-x-3 mt-8">
+                        <div class="inline-flex items-center justify-between lg:space-x-3 mt-8 lg:mt-0">
                             <button type="button"
                                 class="rounded-full hidden border-2 transition text-briix-primary border-transparent hover:border-briix-primary px-4 w-auto lg:inline-flex items-center justify-center space-x-4">
                                 <svg width="31" height="31" viewBox="0 0 31 31" fill="none"
@@ -116,44 +109,48 @@
                     </div>
 
                     <!-- Facility -->
-                    <div class="mt-8 grid lg:flex lg:items-center lg:justify-between -ml-2 lg:-ml-0">
-                        <div class="flex flex-row items-center mb-2 ml-2 lg:ml-0">
-                          <g-image class="mr-5" :src="`/icons/villa-sm.svg`" alt="area-villa" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.area || 100  }} m² building area</p>
+                    <div class="mt-8 grid lg:grid-cols-6 -ml-2 lg:-ml-0">
+                        <div class="grid md:grid-cols-2 lg:grid-cols-3 lg:gap-y-4 lg:col-span-4">
+                            <div class="flex flex-row items-center mb-2 ml-2">
+                              <g-image class="mr-5" :src="`/icons/villa-sm.svg`" alt="area-villa" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  property.area || 100  }} m² building area</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <g-image class="mr-4" :src="`/icons/area.svg`" alt="area" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  652  }} m² lot area</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <g-image class="mr-4" :src="`/icons/pool-sm.svg`" alt="pool" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  77  }} m² pool size</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <g-image class="mr-4" :src="`/icons/floor.svg`" alt="floor" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  2  }} Floors</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <g-image class="mr-4" :src="`/icons/bed.svg`" alt="bed" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  property.bed || 2  }} Bedrooms</p>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <g-image class="mr-4" :src="`/icons/bath.svg`" alt="bath" />
+                                <p class="text-briix-grey-7 lg:font-semibold">{{  property.bath || 2  }} Bathrooms</p>
+                            </div>
                         </div>
-                        <div class="flex flex-row items-center">
-                            <g-image class="mr-4" :src="`/icons/area.svg`" alt="area" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  652  }} m² lot area</p>
-                        </div>
-                        <div class="flex flex-row items-center">
-                            <g-image class="mr-4" :src="`/icons/pool-sm.svg`" alt="pool" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  77  }} m² pool size</p>
-                        </div>
-                        <div class="flex flex-row items-center">
-                            <g-image class="mr-4" :src="`/icons/floor.svg`" alt="floor" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  2  }} Floors</p>
-                        </div>
-                        <div class="flex flex-row items-center">
-                            <g-image class="mr-4" :src="`/icons/bed.svg`" alt="bed" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.bed || 2  }} Bedrooms</p>
-                        </div>
-                        <div class="flex flex-row items-center">
-                            <g-image class="mr-4" :src="`/icons/bath.svg`" alt="bath" />
-                            <p class="text-briix-grey-7 lg:font-semibold">{{  property.bath || 2  }} Bathrooms</p>
+                        <div class="lg:col-span-2 text-right">
+                            <p class="lg:text-[32px] hidden mt-3 sm:block leading-[33px] font-medium text-briix-primary">IDR {{property.price || '13,000,000,000'}}</p>
                         </div>
                     </div>
 
-                    <div
-                        class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 lg:mt-[90px] items-center justify-center lg:space-x-20 w-full">
+                    <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 lg:mt-[150px] items-center justify-center lg:space-x-20 w-full">
                         <button type="button"
-                            class="rounded-full w-full lg:w-max border-2 hover:bg-briix-blue-1 transition text-briix-primary border-briix-primary py-3 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
+                            class="rounded-full w-full lg:w-max border-[1.5px] hover:border-briix-primary shadow-custom transition text-briix-primary border-briix-blue-1 py-3 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.5 12.4619H8.51M12.5 12.4619H12.51M16.5 12.4619H16.51M21.5 12.4619C21.5 16.8799 17.47 20.4619 12.5 20.4619C11.0286 20.4669 9.57479 20.1427 8.245 19.5129L3.5 20.4619L4.895 16.7419C4.012 15.5039 3.5 14.0359 3.5 12.4619C3.5 8.04391 7.53 4.46191 12.5 4.46191C17.47 4.46191 21.5 8.04391 21.5 12.4619Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             <p>Live Chat</p>
                         </button>
                         <button type="button"
-                            class="rounded-full w-full lg:w-max text-white bg-briix-primary hover:bg-briix-primary/90 transition py-3.5 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
+                            class="rounded-full w-full lg:w-max text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.00002 6.46193C6.80224 6.46193 6.6089 6.52058 6.44445 6.63046C6.28 6.74034 6.15182 6.89652 6.07614 7.07925C6.00045 7.26197 5.98065 7.46304 6.01923 7.65702C6.05782 7.851 6.15306 8.02918 6.29291 8.16904C6.43276 8.30889 6.61095 8.40413 6.80493 8.44272C6.99891 8.4813 7.19997 8.4615 7.3827 8.38581C7.56543 8.31012 7.7216 8.18195 7.83149 8.0175C7.94137 7.85305 8.00002 7.65971 8.00002 7.46193C8.00002 7.19671 7.89466 6.94236 7.70712 6.75482C7.51959 6.56729 7.26523 6.46193 7.00002 6.46193ZM21.71 12.2419L12.23 2.78193C12.1368 2.68139 12.0239 2.60111 11.8983 2.54606C11.7727 2.49101 11.6371 2.46237 11.5 2.46193H5.50002C5.36841 2.46117 5.23795 2.48639 5.11611 2.53616C4.99427 2.58592 4.88346 2.65925 4.79002 2.75193L2.29002 5.24193C2.19734 5.33537 2.12401 5.44619 2.07425 5.56802C2.02448 5.68986 1.99926 5.82032 2.00002 5.95193V11.9519C2.0037 12.2167 2.10728 12.4703 2.29002 12.6619L11.78 22.1619C11.9717 22.3447 12.2253 22.4482 12.49 22.4519C12.6216 22.4527 12.7521 22.4275 12.8739 22.3777C12.9958 22.3279 13.1066 22.2546 13.2 22.1619L21.71 13.6519C21.8027 13.5585 21.876 13.4477 21.9258 13.3258C21.9756 13.204 22.0008 13.0735 22 12.9419C21.9938 12.6806 21.8904 12.431 21.71 12.2419ZM12.49 20.0519L4.00002 11.5519V6.36193L5.90002 4.46193H11.08L19.58 12.9519L12.49 20.0519Z" fill="white"/>
                             </svg>
@@ -167,10 +164,10 @@
 
             <!-- The Masterplan -->
             <section class="relative my-24 lg:mt-[250px]">
-                <div class="float-right px-5 lg:px-0 text-right lg:max-w-lg w-full lg:mr-[100px]">
+                <div class="float-right px-5 lg:px-0 text-right lg:max-w-lg w-full lg:mr-[100px] mb-12">
                     <div class="inline-flex items-center space-x-5">
                         <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                        <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Site Plan</h1>
+                        <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px] text-right">Site Plan</h1>
                     </div>
                     <p
                         class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100 text-right">
@@ -353,8 +350,9 @@ import LogoBriix from '@/components/svg/LogoBriix.vue';
 import CardFacility from '@/components/cards/CardFacility.vue';
 import CardProperty from '@/components/cards/CardProperty.vue';
 import properties from '@/data/properties.json'
+import IndividualCarrousel from '../components/home/IndividualCarrousel.vue';
 export default {
-    components: { Hero, OurProperties, WhyUseBriix, SiwaCliffSection, Footer, KuVillaSection, AraVillaSection, SiwaUluwatuVillaSection, LogoBriix, CardFacility, CardProperty },
+    components: { Hero, OurProperties, WhyUseBriix, SiwaCliffSection, Footer, KuVillaSection, AraVillaSection, SiwaUluwatuVillaSection, LogoBriix, CardFacility, CardProperty, IndividualCarrousel },
     metaInfo: {
         title: "Details for each property",
         meta: [
