@@ -1,6 +1,6 @@
 <template>
     <!-- Carrousel Fake Image -->
-    <div>
+    <div class="min-h-screen h-full">
         <ClientOnly>
             <Carousel 
                 :autoplay="true"  
@@ -14,7 +14,7 @@
                 :loop="true"
             >
                 <Slide v-for="i in images" :key="i.id">
-                    <div class="h-full w-full overflow-hidden shadow-custom">
+                    <div class="min-h-screen lg:min-h-[918px] h-full w-full overflow-hidden shadow-custom">
                         <g-image class="w-full h-full object-cover" :src="require(`!!assets-loader!@images/${i.url}`)" />
                     </div>
                 </Slide>
