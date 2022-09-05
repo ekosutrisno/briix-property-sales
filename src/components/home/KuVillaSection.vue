@@ -12,7 +12,7 @@
         <div class="lg:-ml-14">
             <g-image class="h-full w-full max-w-[1100px] object-cover" src="@/assets/images/imgs/ku_master_plan_1.jpg" alt="ku-master-plan"/>
         </div>
-        <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:-top-[200px] lg:max-w-lg">
+        <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg">
             <div class="inline-flex items-center space-x-5 lg:pl-10">
                 <div class="h-0.5 lg:mb-4 bg-briix-primary w-[100px]"></div>
                 <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px] text-right">Master Plan</h1>
