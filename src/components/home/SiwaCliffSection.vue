@@ -3,7 +3,7 @@
         <!-- Anchor Section -->
         <div class="-mt-20" id="siwa_cliff_section"></div>
         
-        <div class="-mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
+        <div class="mt-8 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
             Siwa Cliff</div>
 
             <!-- Images Hero With Carrousel -->
@@ -49,7 +49,7 @@
         </div>
 
         <!-- Available Villas on the Market -->
-        <div class="lg:mt-[170px] mt-20 px-5 lg:briix-container">
+        <div id="properties_section" class="lg:mt-[170px] mt-20 px-5 lg:briix-container">
            
             <div class="inline-flex items-center space-x-5">
                 <div class="h-0.5 bg-briix-primary w-[100px]"></div>
@@ -57,15 +57,13 @@
             </div>
 
             <!-- Card Available -->
-            <div
-                class="w-full overflow-hidden min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
+            <div class="w-full overflow-hidden  min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
-                    <g-image class="h-full w-full object-cover rounded-[15px]" src="@/assets/images/siwa_cliff_villa_k.jpg"
-                        alt="available-img" />
+                        <MainCardCarrousel :images="['siwa_cliff_villa_k.jpg','siwa_balcony.jpg','siwa_living.jpg']" />
                 </div>
                 <div class="lg:pr-14 lg:py-8 p-4 py-8">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                        <p class="lg:text-4xl text-2xl leading-[50px] font-semibold">Villa K</p>
+                        <g-link :to="`/detail?id=4063e398-61a3-4185-a561-4ec9f4059b14&group=k_villas`" class="lg:text-4xl text-2xl leading-[50px] font-semibold hover:text-briix-primary transition">Villa K</g-link>
                         <p class="lg:text-2xl leading-[33px] font-medium text-briix-primary">IDR 23,640,750,000</p>
                     </div>
 
@@ -77,7 +75,7 @@
                     </div>
 
                     <!-- Facility -->
-                    <div class="mt-4 grid lg:gap-3 lg:grid-cols-2 -ml-2 lg:-ml-0">
+                    <div class="mt-8 grid lg:gap-3 lg:grid-cols-2 -ml-2 lg:-ml-0">
                         <div class="flex flex-row items-center space-x-5   mb-3 lg:mb-0 ml-2">
                             <g-image :src="`/icons/${v.icon}`" :alt="v.icon" />
                             <p class="text-briix-grey-7 ml-2 lg:ml-0 lg:font-semibold">{{  v.title  }}</p>
@@ -85,7 +83,7 @@
                         <CardFacility v-for="fac in villaKs" :key="fac.id" :facility="fac" />
                     </div>
 
-                    <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between w-full">
+                    <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-10 items-center justify-between w-full">
                         <button type="button"
                             class="rounded-full w-full border-2 border-briix-primary lg:mr-8 transition text-briix-primary hover:bg-briix-blue-1 py-3 px-10 inline-flex items-center justify-center space-x-3">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -122,6 +120,7 @@ import CardProperty from '../cards/CardProperty.vue';
 import SiwaCliffCarrousel from './SiwaCliffCarrousel.vue';
 import properties from '@/data/properties.json';
 import HeroCarrousel from './HeroCarrousel.vue';
+import MainCardCarrousel from './MainCardCarrousel.vue';
 export default {
     data: () => ({
         facilities: [
@@ -234,6 +233,6 @@ export default {
     computed:{
         villasFiltered: ()=> properties.filter(data=> data.villaGroup == 'siwa_cliff')
     },
-    components: { CardFacility, CardProperty, SiwaCliffCarrousel, HeroCarrousel }
+    components: { CardFacility, CardProperty, SiwaCliffCarrousel, HeroCarrousel, MainCardCarrousel }
 }
 </script>

@@ -3,7 +3,7 @@
     <!-- Anchor Section -->
     <div class="-mt-20" id="ara_section"></div>
 
-    <div class="-mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl tracking-[20%]">ARA</div>
+    <div class="mt-8 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl tracking-[20%]">ARA</div>
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full relative lg:mt-10">

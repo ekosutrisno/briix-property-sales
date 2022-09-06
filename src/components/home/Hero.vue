@@ -5,9 +5,7 @@
         <div class="absolute mx-auto w-full h-full inset-0 lg:min-h-[918px] bg-gradient-to-b from-black/75 to-black/25">
 
         <div class="flex h-full min-h-screen lg:min-h-[918px] flex-col justify-between briix-container">
-            <header class="pt-8">
-                <LogoBriix />
-            </header>
+            <Header/>
             <div class="flex-1">
                 <div class="grid lg:grid-cols-3 mt-[30vh] lg:mt-[300px]">
                     <div class="text-white w-full lg:col-span-2">
@@ -30,8 +28,8 @@
 </template>
 
 <script>
-import LogoBriix from '../svg/LogoBriix.vue';
+import Header from './Header.vue';
 export default {
-    components: { LogoBriix }
+    components: { Header }
 }
 </script>

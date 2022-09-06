@@ -1,5 +1,5 @@
 <template>
-    <section class="relative overflow-hidden lg:min-h-[769px] py-10 lg:py-[85px] lg:mt-20 briix-container bg-[#EAF6FB]">
+    <section id="contact_section" class="relative overflow-hidden lg:min-h-[769px] py-10 lg:py-[85px] lg:mt-20 briix-container bg-[#EAF6FB]">
         <SeluetBlue class="absolute inset-0"/>
         <div class="grid lg:grid-cols-2   relative">
             <div class="lg:border-r lg:border-r-[#C7E7F4] lg:pr-20">

@@ -2,14 +2,14 @@
     <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
     <!-- Anchor Section -->
     <div class="-mt-20" id="ku_section"></div>
-    <div class="-mt-14 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
+    <div class="mt-8 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
     
     <!-- Images Hero With Carrousel-->
     <HeroCarrousel :images="images"/>
 
     <!-- Masterplan -->
-    <div class="mt-[150px] grid relative overflow-hidden">
-        <div class="lg:-ml-14">
+    <div class="mt-[150px] grid relative briix-container">
+        <div class="lg:mt-20">
             <g-image class="h-full w-full max-w-[1100px] object-cover" src="@/assets/images/imgs/ku_master_plan_1.jpg" alt="ku-master-plan"/>
         </div>
         <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg">
@@ -22,7 +22,7 @@
     </div>
 
     <!-- Facilities -->
-    <div class="  briix-container mt-20 lg:mt-[170px]">
+    <div class="briix-container mt-20 lg:mt-[170px]">
         <div>
             <div class="inline-flex items-center space-x-5">
                 <div class="h-0.5 bg-briix-primary w-[100px]"></div>
