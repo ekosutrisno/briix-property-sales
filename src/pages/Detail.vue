@@ -142,9 +142,9 @@
                     </div>
 
                     <div class="w-full">
-                        <div class="lg:flex max-w-screen-lg mx-auto space-y-5 px-10 py-16 lg:space-y-0 mt-20 lg:mt-[150px] items-center justify-center lg:space-x-20 w-full rounded-[15px] briix-shadow">
+                        <div class="lg:flex max-w-screen-lg mx-auto space-y-5 px-10 py-16 lg:space-y-0 mt-20 lg:mt-[150px] items-center justify-center lg:space-x-20 w-full rounded-[15px] shadow-custom-c1">
                             <button type="button"
-                                class="rounded-full w-full border-[1.5px] hover:border-briix-primary shadow-custom transition text-briix-primary border-briix-blue-1 py-3 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
+                                class="rounded-full w-full border-2 border-briix-primary transition text-briix-primary hover:bg-briix-blue-1 py-3 px-10 lg:px-20 inline-flex items-center justify-center space-x-4">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.5 12.4619H8.51M12.5 12.4619H12.51M16.5 12.4619H16.51M21.5 12.4619C21.5 16.8799 17.47 20.4619 12.5 20.4619C11.0286 20.4669 9.57479 20.1427 8.245 19.5129L3.5 20.4619L4.895 16.7419C4.012 15.5039 3.5 14.0359 3.5 12.4619C3.5 8.04391 7.53 4.46191 12.5 4.46191C17.47 4.46191 21.5 8.04391 21.5 12.4619Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>

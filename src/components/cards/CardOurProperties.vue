@@ -4,7 +4,7 @@
         <div class="absolute inset-0 lg:inset-4 flex flex-col items-center justify-center rounded-xl bg-gradient-to-t from-black/20 to-black/5">
             <g-image :src="`/${data.logo}`" :alt="data.logo"/>
             <g-image v-show="data.subLogo" :src="`/${data.subLogo}`" :alt="data.subLogo"/>
-            <p v-if="data.soon" class="text-white/70 mt-8   font-bold">Comming Soon</p>
+            <p v-if="data.soon" class="text-white/70 mt-8   font-bold">Coming Soon</p>
         </div>
     </a>
 </template>

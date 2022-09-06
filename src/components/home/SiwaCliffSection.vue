@@ -14,7 +14,7 @@
             <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg">
                 <div class="inline-flex items-center space-x-5">
                     <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                    <h1 class="lg:text-[36px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">The Master
+                    <h1 class="lg:text-[36px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Master
                         Plan</h1>
                 </div>
                 <p class="lg:text-xl text-briix-body leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
@@ -87,19 +87,19 @@
 
                     <div class="lg:inline-flex space-y-5 lg:space-y-0 mt-5 items-center justify-between w-full">
                         <button type="button"
-                            class="rounded-full w-full border-[1.5px] hover:border-briix-primary shadow-custom lg:mr-8 transition text-briix-primary border-briix-blue-1 py-3 px-10 inline-flex items-center justify-center space-x-3">
+                            class="rounded-full w-full border-2 border-briix-primary lg:mr-8 transition text-briix-primary hover:bg-briix-blue-1 py-3 px-10 inline-flex items-center justify-center space-x-3">
                             <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M8.5 12.4619H8.51M12.5 12.4619H12.51M16.5 12.4619H16.51M21.5 12.4619C21.5 16.8799 17.47 20.4619 12.5 20.4619C11.0286 20.4669 9.57479 20.1427 8.245 19.5129L3.5 20.4619L4.895 16.7419C4.012 15.5039 3.5 14.0359 3.5 12.4619C3.5 8.04391 7.53 4.46191 12.5 4.46191C17.47 4.46191 21.5 8.04391 21.5 12.4619Z" stroke="#1F9ED3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                             </svg>
                             <p>Live Chat</p>
                         </button>
-                        <button type="button"
+                        <g-link :to="`/detail?id=4063e398-61a3-4185-a561-4ec9f4059b14&group=k_villas`"
                             class="rounded-full w-full text-white bg-briix-primary hover:bg-briix-primary/80 transition py-3.5 px-10 inline-flex items-center justify-center space-x-3">
                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7.00002 6.46193C6.80224 6.46193 6.6089 6.52058 6.44445 6.63046C6.28 6.74034 6.15182 6.89652 6.07614 7.07925C6.00045 7.26197 5.98065 7.46304 6.01923 7.65702C6.05782 7.851 6.15306 8.02918 6.29291 8.16904C6.43276 8.30889 6.61095 8.40413 6.80493 8.44272C6.99891 8.4813 7.19997 8.4615 7.3827 8.38581C7.56543 8.31012 7.7216 8.18195 7.83149 8.0175C7.94137 7.85305 8.00002 7.65971 8.00002 7.46193C8.00002 7.19671 7.89466 6.94236 7.70712 6.75482C7.51959 6.56729 7.26523 6.46193 7.00002 6.46193ZM21.71 12.2419L12.23 2.78193C12.1368 2.68139 12.0239 2.60111 11.8983 2.54606C11.7727 2.49101 11.6371 2.46237 11.5 2.46193H5.50002C5.36841 2.46117 5.23795 2.48639 5.11611 2.53616C4.99427 2.58592 4.88346 2.65925 4.79002 2.75193L2.29002 5.24193C2.19734 5.33537 2.12401 5.44619 2.07425 5.56802C2.02448 5.68986 1.99926 5.82032 2.00002 5.95193V11.9519C2.0037 12.2167 2.10728 12.4703 2.29002 12.6619L11.78 22.1619C11.9717 22.3447 12.2253 22.4482 12.49 22.4519C12.6216 22.4527 12.7521 22.4275 12.8739 22.3777C12.9958 22.3279 13.1066 22.2546 13.2 22.1619L21.71 13.6519C21.8027 13.5585 21.876 13.4477 21.9258 13.3258C21.9756 13.204 22.0008 13.0735 22 12.9419C21.9938 12.6806 21.8904 12.431 21.71 12.2419ZM12.49 20.0519L4.00002 11.5519V6.36193L5.90002 4.46193H11.08L19.58 12.9519L12.49 20.0519Z" fill="white"/>
                             </svg>
                             <p>Enquire Now</p>
-                        </button>
+                        </g-link>
                     </div>
 
                 </div>

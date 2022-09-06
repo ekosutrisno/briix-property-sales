@@ -6,19 +6,21 @@
                 <div class="lg:text-5xl text-3xl mb-10 font-semibold">Contact Us</div>
                 <div>
                     <p class="text-xl lg:text-2xl font-medium">Email</p>
-                    <p class="mt-[5px] text-lg text-briix-body">enquiry@briix.com</p>
+                    <p class="mt-[5px] text-lg text-briix-body">sales@briix.com</p>
                 </div>
                 <div class="mt-10">
                     <p class="text-xl lg:text-2xl font-medium">Phone Numbers</p>
-                    <p class="mt-[5px] text-lg text-briix-body">+62 811-3821-7788</p>
+                    <p class="mt-[5px] text-lg text-briix-body">WhatsApp: +62 811-3821-7788</p>
                 </div>
                 <div class="mt-10">
                     <p class="text-xl lg:text-2xl font-medium">Bali Office</p>
-                    <p class="mt-[5px] text-lg text-briix-body">Pertokoan Canggu Square Unit 12, Jl. Pantai Berawa Subak Sari No.11 Kab. Badung- Kuta Utara Bali – Indonesia 80365</p>
+                    <p class="mt-[5px] text-briix-body">Sunset Road No. X, Seminyak, North Kuta</p>
+                    <p class="mt-[5px] text-briix-body">Bali - Indonesia</p>
                 </div>
                 <div class="mt-10">
-                    <p class="text-xl lg:text-2xl font-medium">Jakarta Office</p>
-                    <p class="mt-[5px] text-lg text-briix-body">Prosperity Tower 21st Floor, Unit I, District 8, SCBD Lot 28, Jl. Jend. Sudirman Kav. 52 – 53, Jakarta 12190</p>
+                    <p class="text-xl lg:text-2xl font-medium">Lombok Office</p>
+                    <p class="mt-[5px] text-briix-body">Jalan Raya- Kuta Mawun, Kuta Mandalika, Pujut</p>
+                    <p class="mt-[5px] text-briix-body">Lombok - Indonesia</p>
                 </div>
             </div>
             <div class="mt-10 lg:mt-0 lg:pl-20">
