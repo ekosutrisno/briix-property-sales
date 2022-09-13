@@ -3,7 +3,7 @@
     <!-- Anchor Section -->
     <div class="-mt-20" id="siwa_uluwatu_section"></div>
 
-    <div class="mt-8 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
+    <div class="mt-8 font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">SIWA ULUWATU</div>
     
     <!-- Images Hero With Carrousel -->
     <div class="w-full relative lg:mt-10">

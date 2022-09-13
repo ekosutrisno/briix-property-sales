@@ -170,13 +170,13 @@
 
             <!-- The Masterplan -->
             <section class="relative my-24 lg:mt-[250px]">
-                <div class="float-right px-5 lg:px-0 text-right lg:max-w-lg w-full lg:mr-[100px] mb-12">
+                <div class="w-full briix-container mb-12">
                     <div class="inline-flex items-center space-x-5">
                         <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                        <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px] text-right">Site Plan</h1>
+                        <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px]">Site Plan</h1>
                     </div>
                     <p
-                        class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100 text-right">
+                        class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100">
                         The SIWA Cliffs property marks a new dawn in luxury property development and management in South
                         Lombok with it's unique approach to sustainability through design, service and living.</p>
                 </div>

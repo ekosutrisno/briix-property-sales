@@ -6,7 +6,7 @@
             </div>
             <div class="lg:col-span-2 lg:px-20 text-white mt-4 lg:mt-36">
                 <h1 class="text-2xl lg:text-[40px] font-bold  ">Direct Property Investment</h1>
-                <p class="mt-4 text-base lg:text-xl leading-[22px] lg:leading-[30px]">Briix provides a wide range of property investments for investors looking to <br class="hidden lg:block"> increase their real estate asset portfolio.</p>
+                <p class="mt-4 text-base lg:text-xl leading-[22px] lg:leading-[30px]">Briix provides a wide range of property investments for investors looking to increase their real estate asset portfolio.</p>
                 
                 <div class="grid lg:grid-cols-2 gap-y-4 lg:gap-6 mt-4 lg:mt-12">
                     <div class="min-h-[76px] bg-briix-grey-6/20 text-white backdrop-blur-sm ring-1 ring-briix-blue-1/50 hover:bg-white hover:text-briix-black transition rounded-lg p-4 grid grid-cols-6 items-center">
