@@ -12,7 +12,7 @@
         <!-- CTA SIWA Cliffs -->
         <div class="flex items-center justify-between relative briix-container mt-10">
             <div>
-                <h1 class="lg:text-[36px] text-2xl font-semibold leading-[56px]">SIWA Cliffs</h1>
+                <h1 class="lg:text-[36px] text-2xl font-medium leading-[56px]">SIWA Cliffs</h1>
                 <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
                     <svg width="25" height="25" class="hidden lg:block text-briix-primary" viewBox="0 0 25 25"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -24,21 +24,22 @@
                 </div>
             </div>
             <div>
-                <button type="button" class="w-full lg:max-w-[320px] rounded-xl text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4 tracking-wide">
+                <button type="button" class="rounded-full w-full lg:max-w-max border-2 border-briix-primary transition text-briix-primary hover:bg-briix-blue-1 py-3 px-10 inline-flex items-center justify-center space-x-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                    </svg>
                     <p>Download Brochure</p>
                 </button>
             </div>
         </div>
 
         <!-- Masterplan -->
-        <div class="relative mt-20 lg:mt-56">
-            <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg">
+        <div class="mt-20 briix-container">
+            <div class="px-5 lg:px-0 text-center">
                 <div class="inline-flex items-center space-x-5">
-                    <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                    <h1 class="lg:text-[36px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Master
-                        Plan</h1>
+                    <h1 class="lg:text-[32px] text-2xl lg:mb-[20px] font-medium leading-[56px]">Master Plan</h1>
                 </div>
-                <p class="lg:text-xl text-briix-body leading-relaxed lg:leading-[36px] tracking-[0.02em] text-right">The
+                <p class="lg:text-[18px] text-briix-body leading-relaxed lg:leading-[36px] tracking-[0.02em]">The
                     SIWA Cliffs property marks a new dawn in luxury property development and management in South Lombok
                     with it's unique approach to sustainability through design, service and living.</p>
             </div>
@@ -53,9 +54,7 @@
         <div class="  briix-container mt-20 lg:mt-[170px]">
             <div>
                 <div class="inline-flex items-center space-x-5">
-                    <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-                    <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-semibold leading-[56px] text-left">The
-                        Facilities.</h1>
+                    <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-medium leading-[56px] text-left">The Facilities.</h1>
                 </div>
                 <p class="lg:text-xl leading-relaxed lg:leading-[30px] tracking-[0.02em] text-briix-body text-left">The
                     resort offers a club house, fitness center, spa and an area for business travelers to work and host
@@ -73,18 +72,17 @@
         <div id="properties_section" class="lg:mt-[170px] mt-20 px-5 lg:briix-container">
            
             <div class="inline-flex items-center space-x-5">
-                <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-                <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
+                <h1 class="lg:text-[40px] text-2xl font-medium tracking-[0.03em] leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
             </div>
 
             <!-- Card Available -->
-            <div class="w-full overflow-hidden  min-h-[488px] lg:mt-[100px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
+            <div class="w-full overflow-hidden  min-h-[488px] lg:mt-[50px] mt-5 grid lg:grid-cols-2 bg-white rounded-[15px] shadow-custom-c1">
                 <div class="rounded-[15px] overflow-hidden lg:pr-10">
                         <MainCardCarrousel :images="['siwa_cliff_villa_k.jpg','siwa_balcony.jpg','siwa_living.jpg']" />
                 </div>
                 <div class="lg:pr-14 lg:py-8 p-4 py-8">
                     <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                        <g-link :to="`/detail?id=4063e398-61a3-4185-a561-4ec9f4059b14&group=k_villas`" class="lg:text-4xl text-2xl leading-[50px] font-semibold hover:text-briix-primary transition">Villa K</g-link>
+                        <g-link :to="`/detail?id=4063e398-61a3-4185-a561-4ec9f4059b14&group=k_villas`" class="lg:text-4xl text-2xl leading-[50px] font-medium hover:text-briix-primary transition">Villa K</g-link>
                         <p class="lg:text-2xl leading-[33px] font-medium text-briix-primary">IDR 23,640,750,000</p>
                     </div>
 

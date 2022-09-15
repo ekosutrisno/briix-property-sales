@@ -1,6 +1,6 @@
 <template>
     <section class="bg-gradient-to-b from-[#C7E7F4]/40 to-[#FFFFFF]/0 briix-container lg:mb-[42px] pt-10">
-        <h1 class="  font-semibold text-2xl my-10 lg:text-5xl lg:leading-[72px] text-center">Our Properties</h1>
+        <h1 class="font-medium text-2xl my-10 lg:text-5xl lg:leading-[72px] text-center">Our Properties</h1>
 
         <div class="grid gap-y-6 lg:grid-cols-4 lg:gap-6 lg:mt-[86px]">
             <CardOurProperties v-for="card in cards" :key="card.id" :data="card"/>

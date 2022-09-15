@@ -6,13 +6,16 @@
 
         <div class="lg:p-8 p-4">
              <div class="flex flex-col lg:flex-row lg:items-center justify-between">
-                <p :class="[villa.price ? 'lg:text-[32px]' : 'lg:text-[28px]']" class="text-2xl leading-[50px] font-semibold"> {{villa.name}} </p>
+                <p :class="[villa.price ? 'lg:text-[32px]' : 'lg:text-[28px]']" class="text-2xl leading-[50px] font-medium"> {{villa.name}} </p>
                 <p v-if="villa.price" class="text-xl lg:text-2xl lg:leading-[33px] font-medium text-briix-primary">IDR {{ villa.price }}</p>
             </div>
 
             <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
-                <svg width="25" height="25" class="hidden lg:block" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M7.41093 6.40787C8.6344 5.1844 10.2938 4.49707 12.024 4.49707C13.7542 4.49707 15.4136 5.1844 16.6371 6.40787C17.8605 7.63133 18.5479 9.2907 18.5479 11.0209C18.5479 12.7512 17.8605 14.4105 16.6371 15.634L12.024 20.2471L7.41093 15.634C6.8051 15.0282 6.32452 14.309 5.99664 13.5175C5.66876 12.726 5.5 11.8777 5.5 11.0209C5.5 10.1642 5.66876 9.31585 5.99664 8.52433C6.32452 7.73282 6.8051 7.01364 7.41093 6.40787ZM12.024 12.8848C12.5183 12.8848 12.9924 12.6884 13.342 12.3389C13.6915 11.9893 13.8879 11.5153 13.8879 11.0209C13.8879 10.5266 13.6915 10.0525 13.342 9.70298C12.9924 9.35344 12.5183 9.15707 12.024 9.15707C11.5297 9.15707 11.0556 9.35344 10.706 9.70298C10.3565 10.0525 10.1601 10.5266 10.1601 11.0209C10.1601 11.5153 10.3565 11.9893 10.706 12.3389C11.0556 12.6884 11.5297 12.8848 12.024 12.8848Z" fill="#0C3F54"/>
+                <svg width="25" height="25" class="hidden lg:block text-briix-primary" viewBox="0 0 25 25"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.41093 6.40787C8.6344 5.1844 10.2938 4.49707 12.024 4.49707C13.7542 4.49707 15.4136 5.1844 16.6371 6.40787C17.8605 7.63133 18.5479 9.2907 18.5479 11.0209C18.5479 12.7512 17.8605 14.4105 16.6371 15.634L12.024 20.2471L7.41093 15.634C6.8051 15.0282 6.32452 14.309 5.99664 13.5175C5.66876 12.726 5.5 11.8777 5.5 11.0209C5.5 10.1642 5.66876 9.31585 5.99664 8.52433C6.32452 7.73282 6.8051 7.01364 7.41093 6.40787ZM12.024 12.8848C12.5183 12.8848 12.9924 12.6884 13.342 12.3389C13.6915 11.9893 13.8879 11.5153 13.8879 11.0209C13.8879 10.5266 13.6915 10.0525 13.342 9.70298C12.9924 9.35344 12.5183 9.15707 12.024 9.15707C11.5297 9.15707 11.0556 9.35344 10.706 9.70298C10.3565 10.0525 10.1601 10.5266 10.1601 11.0209C10.1601 11.5153 10.3565 11.9893 10.706 12.3389C11.0556 12.6884 11.5297 12.8848 12.024 12.8848Z"
+                        fill="currentColor" />
                 </svg>
                 <p class="font-normal text-briix-body"> {{ villa.address }} </p>
             </div>
@@ -27,7 +30,7 @@
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.bed}} Bedrooms</p>
                     </div>
                     <div class="flex   items-center space-x-3">
-                        <g-image width="42" height="42"  :src="`/icons/bed.svg`" alt="bed-1"/>
+                        <g-image width="42" height="42"  :src="`/icons/bath.svg`" alt="bed-1"/>
                         <p class="leading-[22px] text-briix-grey-7 font-medium">{{villa.bath}} Bathrooms</p>
                     </div>
             </div>

@@ -109,7 +109,7 @@
                         <div class="lg:col-span-2 text-right">
                             <p class="lg:text-[32px] hidden mt-3 sm:block leading-[33px] font-medium text-briix-primary">IDR {{property.price || '13,000,000,000'}}</p>
                         </div>
-                        <button type="button" class="rounded-xl w-full lg:max-w-[320px] border-2 border-briix-primary transition text-briix-primary hover:bg-briix-blue-1 py-3 px-12 inline-flex items-center justify-center space-x-4">
+                        <button type="button" class="rounded-full w-full lg:max-w-[320px] border-2 border-briix-primary transition text-briix-primary hover:bg-briix-blue-1 py-3 px-12 inline-flex items-center justify-center space-x-4">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
@@ -148,14 +148,14 @@
                         </div>
                         <div class="w-full lg:col-span-2 flex flex-col items-end space-y-8 mt-10 lg:mt-0">
                             <button type="button"
-                                class="w-full lg:max-w-[320px] rounded-xl text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4">
+                                class="w-full lg:max-w-[320px] rounded-full text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4">
                                 <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.5 12.4619H8.51M12.5 12.4619H12.51M16.5 12.4619H16.51M21.5 12.4619C21.5 16.8799 17.47 20.4619 12.5 20.4619C11.0286 20.4669 9.57479 20.1427 8.245 19.5129L3.5 20.4619L4.895 16.7419C4.012 15.5039 3.5 14.0359 3.5 12.4619C3.5 8.04391 7.53 4.46191 12.5 4.46191C17.47 4.46191 21.5 8.04391 21.5 12.4619Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                                 <p>Live Chat</p>
                             </button>
                             <button type="button"
-                                class="w-full lg:max-w-[320px] rounded-xl text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4">
+                                class="w-full lg:max-w-[320px] rounded-full text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                                 </svg>
@@ -172,11 +172,10 @@
             <section class="relative my-24 lg:mt-[250px]">
                 <div class="w-full briix-container mb-12">
                     <div class="inline-flex items-center space-x-5">
-                        <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                        <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px]">Site Plan</h1>
+                        <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-medium leading-[56px]">Site Plan</h1>
                     </div>
                     <p
-                        class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100">
+                        class="lg:text-[18px] font-normal leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-black-100">
                         The SIWA Cliffs property marks a new dawn in luxury property development and management in South
                         Lombok with it's unique approach to sustainability through design, service and living.</p>
                 </div>
@@ -187,10 +186,7 @@
             <!-- Half 1 -->
             <section class="grid lg:grid-cols-2 p-5 lg:p-0 lg:mt-[215px]">
                 <div class="lg:px-[100px] mt-3 lg:mt-0   order-last lg:order-first">
-                    <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
-                        VILLA K</h1>
-                    <h2 class="font-semibold lg:mt-4 text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Fully managed
-                        wellness resort</h2>
+                    <h2 class="font-medium lg:mt-4 text-2xl lg:text-3xl lg:leading-[50px] tracking-[0.03em]">Fully managed wellness resort</h2>
 
                     <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px] lg:leading-[40px]">
                         Villa K is situated on the first row of villas on SIWA Cliffs first phase of developments. The
@@ -212,10 +208,8 @@
                     <g-image class="h-full w-full object-cover" :src="require(`!!assets-loader!@images/siwa_living.jpg`)"
                         alt="villa-k-bedroom" />
                 </div>
-                <div class="lg:px-[100px] mt-5 lg:mt-0   lg:text-right">
-                    <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
-                        VILLA K</h1>
-                    <h2 class="font-semibold lg:mt-4 text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Providing world
+                <div class="lg:px-[100px] mt-5 lg:mt-0 lg:text-right">
+                    <h2 class="font-medium lg:mt-4 text-2xl lg:text-3xl lg:leading-[50px] tracking-[0.03em]">Providing world
                         class services</h2>
 
                     <div class="mt-5 text-briix-body font-light lg:text-xl leading-[35px] lg:leading-[40px]">
@@ -230,13 +224,11 @@
             </section>
 
             <!-- Floor Plan 1 -->
-            <section class="briix-container   lg:mt-[190px]">
+            <section class="briix-container lg:mt-[190px]">
                 <div class="inline-flex items-center space-x-5">
-                    <div class="h-0.5 lg:mb-5 bg-briix-primary w-[100px]"></div>
-                    <h1 class="lg:text-[40px] text-2xl lg:mb-[30px] font-semibold leading-[56px] text-right">Floor Plan.
-                    </h1>
+                    <h1 class="lg:text-[40px] text-2xl font-medium leading-[56px] text-right">Floor Plan.</h1>
                 </div>
-                <div class="mt-10 lg:mt-[100px]">
+                <div class="mt-10 lg:mt-[50px]">
                     <g-image class="h-full w-full object-cover" src="@/assets/images/plan/ground_floor.jpg" alt="ground-floor" />
                 </div>
                 <div class="mt-5 lg:mt-[80px]">
@@ -286,7 +278,7 @@
                     <div>
                         <h1 class="font-medium  text-xl lg:text-2xl text-briix-primary leading-[33px] tracking-[0.2em]">
                             DISCOVER MORE</h1>
-                        <h2 class="font-semibold text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Similar
+                        <h2 class="font-medium text-2xl lg:text-4xl lg:leading-[50px] tracking-[0.03em]">Similar
                             Properties.</h2>
                     </div>
 

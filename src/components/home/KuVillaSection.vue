@@ -10,7 +10,7 @@
      <!-- CTA KU VILLAS -->
      <div class="flex items-center justify-between relative briix-container mt-10">
         <div>
-            <h1 class="lg:text-[36px] text-2xl font-semibold leading-[56px]">KU VILLAS</h1>
+            <h1 class="lg:text-[36px] text-2xl font-medium leading-[56px]">KU VILLAS</h1>
             <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
                 <svg width="25" height="25" class="hidden lg:block text-briix-primary" viewBox="0 0 25 25"
                     fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -22,23 +22,25 @@
             </div>
         </div>
         <div>
-            <button type="button" class="w-full lg:max-w-[320px] rounded-xl text-white bg-briix-primary shadow-custom hover:bg-briix-primary/80 transition py-3.5 px-12 inline-flex items-center justify-center space-x-4 tracking-wide">
+            <button type="button" class="rounded-full w-full lg:max-w-max border-2 border-briix-primary transition text-briix-primary hover:bg-briix-blue-1 py-3 px-10 inline-flex items-center justify-center space-x-4">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
                 <p>Download Brochure</p>
             </button>
         </div>
     </div>
 
     <!-- Masterplan -->
-    <div class="mt-[200px] grid relative briix-container">
-        <div class="lg:mt-20">
-            <g-image class="h-full w-full max-w-[1100px] object-cover" src="@/assets/images/imgs/ku_master_plan_1.jpg" alt="ku-master-plan"/>
-        </div>
-        <div class="lg:absolute px-5 lg:px-0 text-right lg:right-[100px] top-0 lg:max-w-lg">
+    <div class="mt-20 grid relative briix-container">
+        <div class="text-center">
             <div class="inline-flex items-center space-x-5 lg:pl-10">
-                <div class="h-0.5 lg:mb-4 bg-briix-primary w-[100px]"></div>
-                <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-semibold leading-[56px] text-right">Master Plan</h1>
+                <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-medium leading-[56px] text-right">Master Plan</h1>
             </div>
             <p class="lg:text-lg leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body">KU Villas are positioned close to the action in the exotic and unique province of Kuta Mandalika. It’s the perfect base for those looking to enjoy everything the location has to offer, while also being the ideal retreat when you’re looking to re-balance.</p>
+        </div>
+        <div class="lg:mt-10 text-center">
+            <g-image class="h-full w-full mx-auto object-cover" src="@/assets/images/imgs/ku_master_plan_1.jpg" alt="ku-master-plan"/>
         </div>
     </div>
 
@@ -46,8 +48,7 @@
     <div class="briix-container mt-20 lg:mt-[170px]">
         <div>
             <div class="inline-flex items-center space-x-5">
-                <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-                <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-semibold leading-[56px] text-left">The Facilities.</h1>
+                <h1 class="lg:text-[40px] text-2xl lg:mb-[5px] font-medium leading-[56px] text-left">The Facilities.</h1>
             </div>
             <p class="lg:text-xl leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body text-left">The resort offers a club house, fitness center, spa and an area for business travelers to work and host meetings.</p>
         </div>
@@ -62,14 +63,13 @@
     <!-- Available Villas on the Market -->
     <div class="lg:mt-[170px] mt-20 briix-container">
         <div class="inline-flex items-center space-x-5">
-            <div class="h-0.5 bg-briix-primary w-[100px]"></div>
-            <h1 class="lg:text-[40px] text-2xl font-semibold leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
+            <h1 class="lg:text-[40px] text-2xl font-medium leading-[56px] text-left">Available Villas <span class="hidden lg:inline">on the Market</span></h1>
         </div>
     </div>
 
 
     <!-- Card of Properties -->
-    <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 mt-5 lg:mt-[100px]">
+    <div class="briix-container grid lg:grid-cols-2 gap-10 lg:gap-20 mt-5 lg:mt-[50px]">
         <CardProperty v-for="(villa, idx) in villasFiltered" :key="idx" :villa="villa"/>
     </div>
 
