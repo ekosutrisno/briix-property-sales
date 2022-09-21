@@ -10,7 +10,7 @@
      <!-- CTA KU VILLAS -->
      <div class="flex items-center justify-between relative briix-container mt-10">
         <div>
-            <h1 class="lg:text-[36px] text-2xl font-medium leading-[56px]">KU VILLAS</h1>
+            <h1 class="lg:text-5xl text-2xl font-semibold leading-[56px]">KU VILLAS</h1>
             <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
                 <svg width="25" height="25" class="hidden lg:block text-briix-primary" viewBox="0 0 25 25"
                     fill="none" xmlns="http://www.w3.org/2000/svg">

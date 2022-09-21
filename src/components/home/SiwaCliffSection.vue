@@ -2,9 +2,6 @@
     <section class="border-t-2 relative border-t-briix-primary/20 mt-20 lg:mt-72 pb-20">
         <!-- Anchor Section -->
         <div class="-mt-20" id="siwa_cliff_section"></div>
-        
-        <div class="mt-8 hidden font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">
-            Siwa Cliff</div>
 
         <!-- Images Hero With Carrousel -->
         <HeroCarrousel :images="images"/>
@@ -12,7 +9,7 @@
         <!-- CTA SIWA Cliffs -->
         <div class="flex items-center justify-between relative briix-container mt-10">
             <div>
-                <h1 class="lg:text-[36px] text-2xl font-medium leading-[56px]">SIWA Cliffs</h1>
+                <h1 class="lg:text-5xl text-2xl font-semibold leading-[56px]">SIWA Cliffs</h1>
                 <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
                     <svg width="25" height="25" class="hidden lg:block text-briix-primary" viewBox="0 0 25 25"
                         fill="none" xmlns="http://www.w3.org/2000/svg">
