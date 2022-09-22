@@ -40,7 +40,7 @@
             <div class="lg:col-span-1 mt-20 lg:mt-0">
                     <div class="lg:float-right">
                         <g-image src="/BriixLogo.svg" alt="briix-logo-mix"/>
-                        <p class="font-semibold mt-3 text-2xl leading-[33px] text-briix-primary">Building your wealth, <br> Briick by Briick</p>
+                        <p class="font-semibold mt-3 text-xl leading-[33px] text-briix-primary">Building wealth briick by briick</p>
                         
                         <div class="col-span-2 mx-auto lg:col-span-4 pb-[30px] mt-16">
                             <h1 class="  font-semibold text-left text-xl leading-6 mb-[10px]">Download Our App</h1>

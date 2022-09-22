@@ -118,5 +118,17 @@
       "img": "card_ku_4.jpg",
       "planImg": "",
       "villaGroup":"ku_villas"
+    },
+    {
+      "id": "4063e398-61a3-4185-a561-4ec9f4059b14",
+      "name": "Villa K",
+      "price": "23,640,750,000",
+      "address": "Prabu, Pujut, Central Lombok Regency, West Nusa Tenggara",
+      "area": 439,
+      "bed": 3,
+      "bath": 3,
+      "img": "card_ku_4.jpg",
+      "planImg": "villa_k.png",
+      "villaGroup":"k_villas"
     }
   ]
