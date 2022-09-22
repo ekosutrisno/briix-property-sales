@@ -1,5 +1,5 @@
 <template>
-    <section class="border-t-2 relative border-t-briix-primary/20 mt-20 lg:mt-72 pb-20">
+    <section class="border-t-2 relative border-t-briix-primary/20 mt-40 lg:mt-72 pb-20">
         <!-- Anchor Section -->
         <div class="-mt-20" id="siwa_cliff_section"></div>
 
@@ -7,7 +7,7 @@
         <HeroCarrousel :images="images"/>
 
         <!-- CTA SIWA Cliffs -->
-        <div class="flex items-center justify-between relative briix-container mt-10">
+        <div class="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:items-center justify-between relative briix-container mt-10">
             <div>
                 <h1 class="lg:text-5xl text-2xl font-semibold leading-[56px]">SIWA Cliffs</h1>
                 <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
@@ -31,9 +31,9 @@
         </div>
 
         <!-- Masterplan -->
-        <div class="mt-20 briix-container">
-            <div class="px-5 lg:px-0 text-center">
-                <div class="inline-flex items-center space-x-5">
+        <div class="my-20 lg:my-0 lg:mt-52 briix-container relative">
+            <div class="lg:absolute top-0 right-24 px-5 max-w-lg lg:px-0 text-right">
+                <div class="inline-flex items-right space-x-5">
                     <h1 class="lg:text-[32px] text-2xl lg:mb-[20px] font-medium leading-[56px]">Master Plan</h1>
                 </div>
                 <p class="lg:text-[18px] text-briix-body leading-relaxed lg:leading-[36px] tracking-[0.02em]">The

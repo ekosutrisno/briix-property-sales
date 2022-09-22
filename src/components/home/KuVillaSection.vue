@@ -1,5 +1,5 @@
 <template>
-    <section class="border-t-2 border-t-briix-primary/20 mt-36 lg:mt-48 pb-20">
+    <section class="border-t-2 border-t-briix-primary/20 mt-52 lg:mt-48 pb-20">
     <!-- Anchor Section -->
     <div class="-mt-20" id="ku_section"></div>
     <div class="mt-8 hidden font-semibold w-max py-4 px-8 rounded-xl mx-auto bg-white text-center leading-[72px] text-2xl lg:text-5xl">KU VILLAS</div>
@@ -8,7 +8,7 @@
     <HeroCarrousel :images="images"/>
 
      <!-- CTA KU VILLAS -->
-     <div class="flex items-center justify-between relative briix-container mt-10">
+     <div class="flex flex-col lg:flex-row space-y-10 lg:space-y-0 lg:items-center justify-between relative briix-container mt-10">
         <div>
             <h1 class="lg:text-5xl text-2xl font-semibold leading-[56px]">KU VILLAS</h1>
             <div class="inline-flex items-start lg:space-x-2 mt-[13px]">
@@ -32,10 +32,10 @@
     </div>
 
     <!-- Masterplan -->
-    <div class="mt-20 grid relative briix-container">
-        <div class="text-center">
-            <div class="inline-flex items-center space-x-5 lg:pl-10">
-                <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-medium leading-[56px] text-right">Master Plan</h1>
+    <div class="mt-20 lg:mt-52 lg:pt-32 grid relative briix-container">
+        <div class="lg:text-right lg:absolute max-w-lg top-0 right-24">
+            <div class="inline-flex items-right space-x-5 lg:pl-10">
+                <h1 class="lg:text-[36px] text-2xl lg:mb-4 font-medium leading-[56px] lg:text-right">Master Plan</h1>
             </div>
             <p class="lg:text-lg leading-relaxed lg:leading-[36px] tracking-[0.02em] text-briix-body">KU Villas are positioned close to the action in the exotic and unique province of Kuta Mandalika. It’s the perfect base for those looking to enjoy everything the location has to offer, while also being the ideal retreat when you’re looking to re-balance.</p>
         </div>
